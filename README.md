@@ -1,11 +1,3 @@
-# NLP-Project
-
-Basic EDA.
-
-### Before ele.   After			Sum
-### CAG 	64			CAG	58		122
-### NAG	  175		  NAG	116		291
-### OAG	  58			OAG	25		83
-### --------------------------------
-### Total	297			   	199		496
-
+- For TRAC complete dataset, use `Aggression_Imbalance_DS.csv` in ./trac_dataset(12663 samples). <br>
+- For Ours complete dataset, use `total_scrapped_data.csv` (2000 samples) in ./data/final_agreed_data folder.  <br>
+- For Combined Datset, use `Combined_DS.csv` (14663) in ./data folder.
