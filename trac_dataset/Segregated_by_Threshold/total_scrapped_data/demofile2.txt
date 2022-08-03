@@ -1,0 +1,111 @@
+
+=======================****************************==================== 
+ THRESHOLD0.02
+ English 576
+ Mixed1423
+ Hindi1
+ AvgEnglish 145.71701388888889
+ AvgMixed166.4469430780042
+ AvgHindi51.0
+ AvgTokenEnglish 135.84548611111111
+ AvgTokenMixed156.03232607167956
+ AvgTokenHindi50.0
+=======================****************************==================== 
+ THRESHOLD0.04
+ English 747
+ Mixed1252
+ Hindi1
+ AvgEnglish 164.95716198125837
+ AvgMixed157.79872204472844
+ AvgHindi51.0
+ AvgTokenEnglish 154.6987951807229
+ AvgTokenMixed147.54073482428115
+ AvgTokenHindi50.0
+=======================****************************==================== 
+ THRESHOLD0.06
+ English 1064
+ Mixed935
+ Hindi1
+ AvgEnglish 165.92575187969925
+ AvgMixed154.26951871657755
+ AvgHindi51.0
+ AvgTokenEnglish 155.656015037594
+ AvgTokenMixed144.0245989304813
+ AvgTokenHindi50.0
+=======================****************************==================== 
+ THRESHOLD0.08
+ English 1227
+ Mixed772
+ Hindi1
+ AvgEnglish 168.1401792991035
+ AvgMixed148.28886010362694
+ AvgHindi51.0
+ AvgTokenEnglish 157.519967400163
+ AvgTokenMixed138.60621761658032
+ AvgTokenHindi50.0
+=======================****************************==================== 
+ THRESHOLD0.1
+ English 1380
+ Mixed619
+ Hindi1
+ AvgEnglish 168.3978260869565
+ AvgMixed142.80775444264944
+ AvgHindi51.0
+ AvgTokenEnglish 157.88550724637682
+ AvgTokenMixed133.1163166397415
+ AvgTokenHindi50.0
+=======================****************************==================== 
+ THRESHOLD0.12
+ English 1506
+ Mixed493
+ Hindi1
+ AvgEnglish 167.28087649402391
+ AvgMixed139.67951318458418
+ AvgHindi51.0
+ AvgTokenEnglish 156.734395750332
+ AvgTokenMixed130.3022312373225
+ AvgTokenHindi50.0
+=======================****************************==================== 
+ THRESHOLD0.14
+ English 1615
+ Mixed384
+ Hindi1
+ AvgEnglish 166.79814241486068
+ AvgMixed133.875
+ AvgHindi51.0
+ AvgTokenEnglish 156.23467492260062
+ AvgTokenMixed124.90104166666667
+ AvgTokenHindi50.0
+=======================****************************==================== 
+ THRESHOLD0.16
+ English 1723
+ Mixed276
+ Hindi1
+ AvgEnglish 164.70458502611723
+ AvgMixed134.06159420289856
+ AvgHindi51.0
+ AvgTokenEnglish 154.29483459082994
+ AvgTokenMixed124.75
+ AvgTokenHindi50.0
+=======================****************************==================== 
+ THRESHOLD0.18
+ English 1776
+ Mixed223
+ Hindi1
+ AvgEnglish 164.09403153153153
+ AvgMixed131.64125560538116
+ AvgHindi51.0
+ AvgTokenEnglish 153.7257882882883
+ AvgTokenMixed122.26008968609865
+ AvgTokenHindi50.0
+=======================****************************==================== 
+ THRESHOLD0.2
+ English 1823
+ Mixed176
+ Hindi1
+ AvgEnglish 163.51727921009325
+ AvgMixed128.94886363636363
+ AvgHindi51.0
+ AvgTokenEnglish 153.1700493691717
+ AvgTokenMixed119.61363636363636
+ AvgTokenHindi50.0
