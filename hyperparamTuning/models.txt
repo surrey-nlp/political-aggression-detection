@@ -1,0 +1,7 @@
+bert-base-uncased
+albert-base-v2
+roberta-base
+xlm-roberta-base
+l3cube-pune/hing-bert
+l3cube-pune/hing-mbert
+l3cube-pune/hing-roberta
