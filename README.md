@@ -1,3 +1,4 @@
-- For TRAC complete dataset, use `Aggression_Imbalance_DS.csv` in ./trac_dataset(12663 samples). <br>
-- For Ours complete dataset, use `total_scrapped_data.csv` (2000 samples) in ./data/final_agreed_data folder.  <br>
-- For Combined Datset, use `Combined_DS.csv` (14663) in ./data folder.
+- For TRAC complete dataset, use `Aggression_Imbalance_DS.csv` in ./trac_dataset(12663 tweets and comments). <br>
+- For Our complete dataset, use `total_scrapped_data.csv` (2000 tweets) in ./data/final_agreed_data folder.  <br>
+- For Combined Datset, use `Combined_DS.csv` (14663 tweets) in ./data folder.
+- For Topic Modeling on Our dataset, use `before_14.csv` (700), `after_14.csv` (500), `before_19.csv` (500), and `after_19.csv` (300) in ./data/final_agreed_data/ <br>
