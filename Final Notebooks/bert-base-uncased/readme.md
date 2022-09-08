@@ -4,10 +4,10 @@
 ### Run and uploaded to HF ###
 * ours dataset
 * TRAC dataset
+* code-mixed dataset
 ### Currently running ###
 * 
 ### To be run ###
 * combined dataset
-* code-mixed dataset
 * non code-mixed dataset
 
