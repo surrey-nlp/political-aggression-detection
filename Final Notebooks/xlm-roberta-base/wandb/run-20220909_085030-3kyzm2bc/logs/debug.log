@@ -1,0 +1,235 @@
+2022-09-09 08:50:30,249 INFO    MainThread:3283515 [wandb_setup.py:_flush():76] Configure stats pid to 3283515
+2022-09-09 08:50:30,249 INFO    MainThread:3283515 [wandb_setup.py:_flush():76] Loading settings from /home/diptesh/.config/wandb/settings
+2022-09-09 08:50:30,249 INFO    MainThread:3283515 [wandb_setup.py:_flush():76] Loading settings from /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/xlm-roberta-base/wandb/settings
+2022-09-09 08:50:30,249 INFO    MainThread:3283515 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-09-09 08:50:30,249 INFO    MainThread:3283515 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-09-09 08:50:30,249 INFO    MainThread:3283515 [wandb_init.py:_log_setup():461] Logging user logs to /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/xlm-roberta-base/wandb/run-20220909_085030-3kyzm2bc/logs/debug.log
+2022-09-09 08:50:30,249 INFO    MainThread:3283515 [wandb_init.py:_log_setup():462] Logging internal logs to /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/xlm-roberta-base/wandb/run-20220909_085030-3kyzm2bc/logs/debug-internal.log
+2022-09-09 08:50:30,249 INFO    MainThread:3283515 [wandb_init.py:_jupyter_setup():411] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fa4404ae400>
+2022-09-09 08:50:30,250 INFO    MainThread:3283515 [wandb_init.py:init():495] calling init triggers
+2022-09-09 08:50:30,250 INFO    MainThread:3283515 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-09-09 08:50:30,250 INFO    MainThread:3283515 [wandb_init.py:init():548] starting backend
+2022-09-09 08:50:30,250 INFO    MainThread:3283515 [wandb_init.py:init():552] setting up manager
+2022-09-09 08:50:30,252 INFO    MainThread:3283515 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-09-09 08:50:30,254 INFO    MainThread:3283515 [wandb_init.py:init():558] backend started and connected
+2022-09-09 08:50:30,266 INFO    MainThread:3283515 [wandb_run.py:_label_probe_notebook():1105] probe notebook
+2022-09-09 08:50:30,266 INFO    MainThread:3283515 [wandb_run.py:_label_probe_notebook():1115] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-09-09 08:50:30,267 INFO    MainThread:3283515 [wandb_init.py:init():636] updated telemetry
+2022-09-09 08:50:30,518 INFO    MainThread:3283515 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2022-09-09 08:50:31,176 INFO    MainThread:3283515 [wandb_run.py:_on_init():1982] communicating current version
+2022-09-09 08:50:31,255 INFO    MainThread:3283515 [wandb_run.py:_on_init():1986] got version response upgrade_message: "wandb version 0.13.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-09-09 08:50:31,255 INFO    MainThread:3283515 [wandb_init.py:init():700] starting run threads in backend
+2022-09-09 08:50:36,182 INFO    MainThread:3283515 [wandb_run.py:_console_start():1962] atexit reg
+2022-09-09 08:50:36,182 INFO    MainThread:3283515 [wandb_run.py:_redirect():1820] redirect: SettingsConsole.WRAP_RAW
+2022-09-09 08:50:36,183 INFO    MainThread:3283515 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2022-09-09 08:50:36,183 INFO    MainThread:3283515 [wandb_run.py:_redirect():1907] Redirects installed.
+2022-09-09 08:50:36,185 INFO    MainThread:3283515 [wandb_init.py:init():732] run started, returning control to user process
+2022-09-09 08:50:36,190 INFO    MainThread:3283515 [wandb_run.py:_config_callback():1152] config_cb None None {'return_dict': True, 'output_hidden_states': False, 'output_attentions': False, 'torchscript': False, 'torch_dtype': None, 'use_bfloat16': False, 'pruned_heads': {}, 'tie_word_embeddings': True, 'is_encoder_decoder': False, 'is_decoder': False, 'cross_attention_hidden_size': None, 'add_cross_attention': False, 'tie_encoder_decoder': False, 'max_length': 20, 'min_length': 0, 'do_sample': False, 'early_stopping': False, 'num_beams': 1, 'num_beam_groups': 1, 'diversity_penalty': 0.0, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'typical_p': 1.0, 'repetition_penalty': 1.0, 'length_penalty': 1.0, 'no_repeat_ngram_size': 0, 'encoder_no_repeat_ngram_size': 0, 'bad_words_ids': None, 'num_return_sequences': 1, 'chunk_size_feed_forward': 0, 'output_scores': False, 'return_dict_in_generate': False, 'forced_bos_token_id': None, 'forced_eos_token_id': None, 'remove_invalid_values': False, 'exponential_decay_length_penalty': None, 'architectures': ['XLMRobertaForMaskedLM'], 'finetuning_task': None, 'id2label': {0: 'LABEL_0', 1: 'LABEL_1', 2: 'LABEL_2'}, 'label2id': {'LABEL_0': 0, 'LABEL_1': 1, 'LABEL_2': 2}, 'tokenizer_class': None, 'prefix': None, 'bos_token_id': 0, 'pad_token_id': 1, 'eos_token_id': 2, 'sep_token_id': None, 'decoder_start_token_id': None, 'task_specific_params': None, 'problem_type': None, '_name_or_path': 'xlm-roberta-base', 'transformers_version': '4.20.1', 'model_type': 'xlm-roberta', 'output_past': True, 'vocab_size': 250002, 'hidden_size': 768, 'num_hidden_layers': 12, 'num_attention_heads': 12, 'hidden_act': 'gelu', 'intermediate_size': 3072, 'hidden_dropout_prob': 0.1, 'attention_probs_dropout_prob': 0.1, 'max_position_embeddings': 514, 'type_vocab_size': 1, 'initializer_range': 0.02, 'layer_norm_eps': 1e-05, 'position_embedding_type': 'absolute', 'use_cache': True, 'classifier_dropout': None, 'output_dir': 'xlm-roberta-base-finetuned-TRAC-DS', 'overwrite_output_dir': False, 'do_train': False, 'do_eval': True, 'do_predict': False, 'evaluation_strategy': 'steps', 'prediction_loss_only': False, 'per_device_train_batch_size': 8, 'per_device_eval_batch_size': 16, 'per_gpu_train_batch_size': 'None', 'per_gpu_eval_batch_size': 'None', 'gradient_accumulation_steps': 1, 'eval_accumulation_steps': 'None', 'eval_delay': 0, 'learning_rate': 4.1187640010910775e-05, 'weight_decay': 0.13668695797323277, 'adam_beta1': 0.9, 'adam_beta2': 0.999, 'adam_epsilon': 1e-08, 'max_grad_norm': 1.0, 'num_train_epochs': 6, 'max_steps': -1, 'lr_scheduler_type': 'linear', 'warmup_ratio': 0.0, 'warmup_steps': 0, 'log_level': 20, 'log_level_replica': -1, 'log_on_each_node': True, 'logging_dir': 'xlm-roberta-base-finetuned-TRAC-DS/runs/Sep09_08-49-54_maverick', 'logging_strategy': 'steps', 'logging_first_step': False, 'logging_steps': 612, 'logging_nan_inf_filter': True, 'save_strategy': 'steps', 'save_steps': 612, 'save_total_limit': 'None', 'save_on_each_node': False, 'no_cuda': False, 'seed': 43, 'data_seed': 4, 'jit_mode_eval': False, 'use_ipex': False, 'bf16': False, 'fp16': False, 'fp16_opt_level': 'O1', 'half_precision_backend': 'auto', 'bf16_full_eval': False, 'fp16_full_eval': False, 'tf32': 'None', 'local_rank': -1, 'xpu_backend': 'None', 'tpu_num_cores': 'None', 'tpu_metrics_debug': False, 'debug': '[]', 'dataloader_drop_last': False, 'eval_steps': 612, 'dataloader_num_workers': 0, 'past_index': -1, 'run_name': 'xlmr-TRAC-DS', 'disable_tqdm': False, 'remove_unused_columns': True, 'label_names': 'None', 'load_best_model_at_end': True, 'metric_for_best_model': 'eval_f1', 'greater_is_better': True, 'ignore_data_skip': False, 'sharded_ddp': '[]', 'fsdp': '[]', 'fsdp_min_num_params': 0, 'deepspeed': 'None', 'label_smoothing_factor': 0.0, 'optim': 'adamw_hf', 'adafactor': False, 'group_by_length': False, 'length_column_name': 'length', 'report_to': "['wandb']", 'ddp_find_unused_parameters': 'None', 'ddp_bucket_cap_mb': 'None', 'dataloader_pin_memory': True, 'skip_memory_metrics': True, 'use_legacy_prediction_loop': False, 'push_to_hub': True, 'resume_from_checkpoint': 'None', 'hub_model_id': 'None', 'hub_strategy': 'every_save', 'hub_token': '<HUB_TOKEN>', 'hub_private_repo': False, 'gradient_checkpointing': False, 'include_inputs_for_metrics': False, 'fp16_backend': 'auto', 'push_to_hub_model_id': 'None', 'push_to_hub_organization': 'None', 'push_to_hub_token': '<PUSH_TO_HUB_TOKEN>', '_n_gpu': 2, 'mp_parameters': '', 'auto_find_batch_size': False, 'full_determinism': False, 'torchdynamo': 'None', 'ray_scope': 'last', 'train_batch_size': 16, 'eval_batch_size': 32}
+2022-09-09 08:50:36,197 INFO    MainThread:3283515 [wandb_watch.py:watch():47] Watching
+2022-09-09 08:50:42,835 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 08:50:42,836 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:03:15,529 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:03:15,538 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:03:15,538 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:03:15,826 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:03:15,827 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:03:15,828 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:03:16,083 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:03:16,086 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:03:16,086 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:03:17,535 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:03:17,537 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:03:17,537 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:03:17,794 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:03:17,844 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:03:17,844 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:03:18,147 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:03:33,201 INFO    MainThread:3283515 [wandb_run.py:_config_callback():1152] config_cb None None {'return_dict': True, 'output_hidden_states': False, 'output_attentions': False, 'torchscript': False, 'torch_dtype': None, 'use_bfloat16': False, 'pruned_heads': {}, 'tie_word_embeddings': True, 'is_encoder_decoder': False, 'is_decoder': False, 'cross_attention_hidden_size': None, 'add_cross_attention': False, 'tie_encoder_decoder': False, 'max_length': 20, 'min_length': 0, 'do_sample': False, 'early_stopping': False, 'num_beams': 1, 'num_beam_groups': 1, 'diversity_penalty': 0.0, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'typical_p': 1.0, 'repetition_penalty': 1.0, 'length_penalty': 1.0, 'no_repeat_ngram_size': 0, 'encoder_no_repeat_ngram_size': 0, 'bad_words_ids': None, 'num_return_sequences': 1, 'chunk_size_feed_forward': 0, 'output_scores': False, 'return_dict_in_generate': False, 'forced_bos_token_id': None, 'forced_eos_token_id': None, 'remove_invalid_values': False, 'exponential_decay_length_penalty': None, 'architectures': ['XLMRobertaForMaskedLM'], 'finetuning_task': None, 'id2label': {0: 'LABEL_0', 1: 'LABEL_1', 2: 'LABEL_2'}, 'label2id': {'LABEL_0': 0, 'LABEL_1': 1, 'LABEL_2': 2}, 'tokenizer_class': None, 'prefix': None, 'bos_token_id': 0, 'pad_token_id': 1, 'eos_token_id': 2, 'sep_token_id': None, 'decoder_start_token_id': None, 'task_specific_params': None, 'problem_type': None, '_name_or_path': 'xlm-roberta-base', 'transformers_version': '4.20.1', 'model_type': 'xlm-roberta', 'output_past': True, 'vocab_size': 250002, 'hidden_size': 768, 'num_hidden_layers': 12, 'num_attention_heads': 12, 'hidden_act': 'gelu', 'intermediate_size': 3072, 'hidden_dropout_prob': 0.1, 'attention_probs_dropout_prob': 0.1, 'max_position_embeddings': 514, 'type_vocab_size': 1, 'initializer_range': 0.02, 'layer_norm_eps': 1e-05, 'position_embedding_type': 'absolute', 'use_cache': True, 'classifier_dropout': None, 'output_dir': 'xlm-roberta-base-finetuned-TRAC-DS', 'overwrite_output_dir': False, 'do_train': False, 'do_eval': True, 'do_predict': False, 'evaluation_strategy': 'steps', 'prediction_loss_only': False, 'per_device_train_batch_size': 4, 'per_device_eval_batch_size': 8, 'per_gpu_train_batch_size': 'None', 'per_gpu_eval_batch_size': 'None', 'gradient_accumulation_steps': 1, 'eval_accumulation_steps': 'None', 'eval_delay': 0, 'learning_rate': 4.1187640010910775e-05, 'weight_decay': 0.13668695797323277, 'adam_beta1': 0.9, 'adam_beta2': 0.999, 'adam_epsilon': 1e-08, 'max_grad_norm': 1.0, 'num_train_epochs': 6, 'max_steps': -1, 'lr_scheduler_type': 'linear', 'warmup_ratio': 0.0, 'warmup_steps': 0, 'log_level': 20, 'log_level_replica': -1, 'log_on_each_node': True, 'logging_dir': 'xlm-roberta-base-finetuned-TRAC-DS/runs/Sep09_10-03-15_maverick', 'logging_strategy': 'steps', 'logging_first_step': False, 'logging_steps': 1224, 'logging_nan_inf_filter': True, 'save_strategy': 'steps', 'save_steps': 1224, 'save_total_limit': 'None', 'save_on_each_node': False, 'no_cuda': False, 'seed': 43, 'data_seed': 4, 'jit_mode_eval': False, 'use_ipex': False, 'bf16': False, 'fp16': False, 'fp16_opt_level': 'O1', 'half_precision_backend': 'auto', 'bf16_full_eval': False, 'fp16_full_eval': False, 'tf32': 'None', 'local_rank': -1, 'xpu_backend': 'None', 'tpu_num_cores': 'None', 'tpu_metrics_debug': False, 'debug': '[]', 'dataloader_drop_last': False, 'eval_steps': 1224, 'dataloader_num_workers': 0, 'past_index': -1, 'run_name': 'xlmr-TRAC-DS', 'disable_tqdm': False, 'remove_unused_columns': True, 'label_names': 'None', 'load_best_model_at_end': True, 'metric_for_best_model': 'eval_f1', 'greater_is_better': True, 'ignore_data_skip': False, 'sharded_ddp': '[]', 'fsdp': '[]', 'fsdp_min_num_params': 0, 'deepspeed': 'None', 'label_smoothing_factor': 0.0, 'optim': 'adamw_hf', 'adafactor': False, 'group_by_length': False, 'length_column_name': 'length', 'report_to': "['wandb']", 'ddp_find_unused_parameters': 'None', 'ddp_bucket_cap_mb': 'None', 'dataloader_pin_memory': True, 'skip_memory_metrics': True, 'use_legacy_prediction_loop': False, 'push_to_hub': True, 'resume_from_checkpoint': 'None', 'hub_model_id': 'None', 'hub_strategy': 'every_save', 'hub_token': '<HUB_TOKEN>', 'hub_private_repo': False, 'gradient_checkpointing': False, 'include_inputs_for_metrics': False, 'fp16_backend': 'auto', 'push_to_hub_model_id': 'None', 'push_to_hub_organization': 'None', 'push_to_hub_token': '<PUSH_TO_HUB_TOKEN>', '_n_gpu': 2, 'mp_parameters': '', 'auto_find_batch_size': False, 'full_determinism': False, 'torchdynamo': 'None', 'ray_scope': 'last', 'train_batch_size': 8, 'eval_batch_size': 16}
+2022-09-09 10:03:33,207 INFO    MainThread:3283515 [wandb_watch.py:watch():47] Watching
+2022-09-09 10:03:34,608 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:03:34,609 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:22,328 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:23,751 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:23,751 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:23,920 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:23,923 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:23,923 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:24,015 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:24,017 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:24,017 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:24,095 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:24,168 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:24,168 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:24,247 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:24,451 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:24,451 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:24,675 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:24,679 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:24,679 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:24,815 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:24,928 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:24,928 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:25,050 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:25,072 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:25,072 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:25,209 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:25,321 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:25,321 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:25,449 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:25,451 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:25,451 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:25,611 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:25,683 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:25,683 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:25,756 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:25,913 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:25,913 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:26,139 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:26,142 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:26,142 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:26,281 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:26,356 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:26,356 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:26,502 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:26,557 INFO    MainThread:3283515 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-09 10:05:26,557 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:05:26,756 INFO    MainThread:3283515 [wandb_init.py:_resume_backend():383] resuming backend
+2022-09-09 10:05:42,140 INFO    MainThread:3283515 [wandb_run.py:_config_callback():1152] config_cb None None {'return_dict': True, 'output_hidden_states': False, 'output_attentions': False, 'torchscript': False, 'torch_dtype': None, 'use_bfloat16': False, 'pruned_heads': {}, 'tie_word_embeddings': True, 'is_encoder_decoder': False, 'is_decoder': False, 'cross_attention_hidden_size': None, 'add_cross_attention': False, 'tie_encoder_decoder': False, 'max_length': 20, 'min_length': 0, 'do_sample': False, 'early_stopping': False, 'num_beams': 1, 'num_beam_groups': 1, 'diversity_penalty': 0.0, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'typical_p': 1.0, 'repetition_penalty': 1.0, 'length_penalty': 1.0, 'no_repeat_ngram_size': 0, 'encoder_no_repeat_ngram_size': 0, 'bad_words_ids': None, 'num_return_sequences': 1, 'chunk_size_feed_forward': 0, 'output_scores': False, 'return_dict_in_generate': False, 'forced_bos_token_id': None, 'forced_eos_token_id': None, 'remove_invalid_values': False, 'exponential_decay_length_penalty': None, 'architectures': ['XLMRobertaForMaskedLM'], 'finetuning_task': None, 'id2label': {0: 'LABEL_0', 1: 'LABEL_1', 2: 'LABEL_2'}, 'label2id': {'LABEL_0': 0, 'LABEL_1': 1, 'LABEL_2': 2}, 'tokenizer_class': None, 'prefix': None, 'bos_token_id': 0, 'pad_token_id': 1, 'eos_token_id': 2, 'sep_token_id': None, 'decoder_start_token_id': None, 'task_specific_params': None, 'problem_type': None, '_name_or_path': 'xlm-roberta-base', 'transformers_version': '4.20.1', 'model_type': 'xlm-roberta', 'output_past': True, 'vocab_size': 250002, 'hidden_size': 768, 'num_hidden_layers': 12, 'num_attention_heads': 12, 'hidden_act': 'gelu', 'intermediate_size': 3072, 'hidden_dropout_prob': 0.1, 'attention_probs_dropout_prob': 0.1, 'max_position_embeddings': 514, 'type_vocab_size': 1, 'initializer_range': 0.02, 'layer_norm_eps': 1e-05, 'position_embedding_type': 'absolute', 'use_cache': True, 'classifier_dropout': None, 'output_dir': 'xlm-roberta-base-finetuned-TRAC-DS', 'overwrite_output_dir': False, 'do_train': False, 'do_eval': True, 'do_predict': False, 'evaluation_strategy': 'steps', 'prediction_loss_only': False, 'per_device_train_batch_size': 4, 'per_device_eval_batch_size': 8, 'per_gpu_train_batch_size': 'None', 'per_gpu_eval_batch_size': 'None', 'gradient_accumulation_steps': 1, 'eval_accumulation_steps': 'None', 'eval_delay': 0, 'learning_rate': 4.1187640010910775e-05, 'weight_decay': 0.13668695797323277, 'adam_beta1': 0.9, 'adam_beta2': 0.999, 'adam_epsilon': 1e-08, 'max_grad_norm': 1.0, 'num_train_epochs': 6, 'max_steps': -1, 'lr_scheduler_type': 'linear', 'warmup_ratio': 0.0, 'warmup_steps': 0, 'log_level': 20, 'log_level_replica': -1, 'log_on_each_node': True, 'logging_dir': 'xlm-roberta-base-finetuned-TRAC-DS/runs/Sep09_10-05-25_maverick', 'logging_strategy': 'steps', 'logging_first_step': False, 'logging_steps': 1224, 'logging_nan_inf_filter': True, 'save_strategy': 'steps', 'save_steps': 1224, 'save_total_limit': 'None', 'save_on_each_node': False, 'no_cuda': False, 'seed': 43, 'data_seed': 4, 'jit_mode_eval': False, 'use_ipex': False, 'bf16': False, 'fp16': False, 'fp16_opt_level': 'O1', 'half_precision_backend': 'auto', 'bf16_full_eval': False, 'fp16_full_eval': False, 'tf32': 'None', 'local_rank': -1, 'xpu_backend': 'None', 'tpu_num_cores': 'None', 'tpu_metrics_debug': False, 'debug': '[]', 'dataloader_drop_last': False, 'eval_steps': 1224, 'dataloader_num_workers': 0, 'past_index': -1, 'run_name': 'xlmr-TRAC-DS', 'disable_tqdm': False, 'remove_unused_columns': True, 'label_names': 'None', 'load_best_model_at_end': True, 'metric_for_best_model': 'eval_f1', 'greater_is_better': True, 'ignore_data_skip': False, 'sharded_ddp': '[]', 'fsdp': '[]', 'fsdp_min_num_params': 0, 'deepspeed': 'None', 'label_smoothing_factor': 0.0, 'optim': 'adamw_hf', 'adafactor': False, 'group_by_length': False, 'length_column_name': 'length', 'report_to': "['wandb']", 'ddp_find_unused_parameters': 'None', 'ddp_bucket_cap_mb': 'None', 'dataloader_pin_memory': True, 'skip_memory_metrics': True, 'use_legacy_prediction_loop': False, 'push_to_hub': True, 'resume_from_checkpoint': 'None', 'hub_model_id': 'None', 'hub_strategy': 'every_save', 'hub_token': '<HUB_TOKEN>', 'hub_private_repo': False, 'gradient_checkpointing': False, 'include_inputs_for_metrics': False, 'fp16_backend': 'auto', 'push_to_hub_model_id': 'None', 'push_to_hub_organization': 'None', 'push_to_hub_token': '<PUSH_TO_HUB_TOKEN>', '_n_gpu': 2, 'mp_parameters': '', 'auto_find_batch_size': False, 'full_determinism': False, 'torchdynamo': 'None', 'ray_scope': 'last', 'train_batch_size': 8, 'eval_batch_size': 16}
+2022-09-09 10:05:42,146 INFO    MainThread:3283515 [wandb_watch.py:watch():47] Watching
+2022-09-09 10:20:43,686 INFO    MainThread:3283515 [wandb_run.py:_finish():1728] finishing run diptesh/aggression_detection/3kyzm2bc
+2022-09-09 10:20:43,687 ERROR   MainThread:3283515 [jupyter.py:save_history():439] Run pip install nbformat to save notebook history
+2022-09-09 10:20:43,688 INFO    MainThread:3283515 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-09-09 10:20:43,688 INFO    MainThread:3283515 [wandb_init.py:_jupyter_teardown():393] cleaning up jupyter logic
+2022-09-09 10:20:43,688 INFO    MainThread:3283515 [wandb_run.py:_atexit_cleanup():1931] got exitcode: 0
+2022-09-09 10:20:43,688 INFO    MainThread:3283515 [wandb_run.py:_restore():1914] restore
+2022-09-09 10:20:43,688 INFO    MainThread:3283515 [wandb_run.py:_restore():1920] restore done
+2022-09-09 10:20:45,783 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 750
+  total_bytes: 750
+}
+
+2022-09-09 10:20:45,946 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 750
+  total_bytes: 750
+}
+
+2022-09-09 10:20:46,635 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 750
+  total_bytes: 750
+}
+
+2022-09-09 10:20:47,958 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 750
+  total_bytes: 750
+}
+
+2022-09-09 10:20:48,675 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 750
+  total_bytes: 147303
+}
+
+2022-09-09 10:20:48,781 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 750
+  total_bytes: 550551
+}
+
+2022-09-09 10:20:48,888 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 750
+  total_bytes: 550551
+}
+
+2022-09-09 10:20:48,993 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 550551
+  total_bytes: 550551
+}
+
+2022-09-09 10:20:49,100 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 550551
+  total_bytes: 550551
+}
+
+2022-09-09 10:20:49,205 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 550551
+  total_bytes: 550551
+}
+
+2022-09-09 10:20:49,309 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 550551
+  total_bytes: 550551
+}
+
+2022-09-09 10:20:49,414 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 550551
+  total_bytes: 550551
+}
+
+2022-09-09 10:20:49,518 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 550551
+  total_bytes: 550551
+}
+
+2022-09-09 10:20:50,594 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 550551
+  total_bytes: 550551
+}
+
+2022-09-09 10:20:51,010 INFO    MainThread:3283515 [wandb_run.py:_on_finish():2221] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 550551
+  total_bytes: 550551
+}
+local_info {
+}
+
+2022-09-09 10:20:52,172 INFO    MainThread:3283515 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-09-09 10:20:52,182 INFO    MainThread:3283515 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-09-09 10:20:52,253 INFO    MainThread:3283515 [wandb_run.py:_footer_sync_info():3261] logging synced files

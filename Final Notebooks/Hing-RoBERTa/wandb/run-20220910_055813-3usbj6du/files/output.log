@@ -1,0 +1,165 @@
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 16
+{'loss': 1.0216, 'learning_rate': 4.111229179961814e-05, 'epoch': 1.0}
+Saving model checkpoint to l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-497
+Configuration saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-497/config.json
+{'eval_loss': 1.1362717151641846, 'eval_accuracy': 0.5392354124748491, 'eval_precision': 0.4228287841191067, 'eval_recall': 0.35120250187890917, 'eval_f1': 0.2876367806786751, 'eval_runtime': 2.6306, 'eval_samples_per_second': 188.931, 'eval_steps_per_second': 12.165, 'epoch': 1.0}
+Model weights saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-497/pytorch_model.bin
+tokenizer config file saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-497/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-497/special_tokens_map.json
+loading file https://huggingface.co/l3cube-pune/hing-roberta/resolve/main/sentencepiece.bpe.model from cache at None
+loading file https://huggingface.co/l3cube-pune/hing-roberta/resolve/main/tokenizer.json from cache at /home/diptesh/.cache/huggingface/transformers/41bf6bbb264c2e4f7b04414c4536c88f081eca38b97ffb2be09783c51cc83a4d.30908359aea2773a11650fe92052ca7ae49e80150f2edd0c2c241e4f6a52d6d3
+loading file https://huggingface.co/l3cube-pune/hing-roberta/resolve/main/added_tokens.json from cache at None
+loading file https://huggingface.co/l3cube-pune/hing-roberta/resolve/main/special_tokens_map.json from cache at /home/diptesh/.cache/huggingface/transformers/7ea9247c1dd1b8d11653f80e2e129855bded8ace425131655d3e26061433d56a.a11ebb04664c067c8fe5ef8f8068b0f721263414a26058692f7b2e4ba2a1b342
+loading file https://huggingface.co/l3cube-pune/hing-roberta/resolve/main/tokenizer_config.json from cache at /home/diptesh/.cache/huggingface/transformers/b8c5e9eaa717532afa9f2b1f9c45bae3481a95930f15853dcd525fc6b1362a14.6759c5058395ed69a0dc6decf2901401d5e22730e0830867de9ff7ab09d3927c
+cuda
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+using `logging_steps` to initialize `eval_steps` to 497
+PyTorch: setting up devices
+env: WANDB_PROJECT=aggression_detection
+loading configuration file https://huggingface.co/l3cube-pune/hing-roberta/resolve/main/config.json from cache at /home/diptesh/.cache/huggingface/transformers/ed92fb88ed46d9f23a6514be7a2e617a028bb7c3089be4d3be76845ba4e2a3a8.f68f7882f42cb68c7da20e8f54901da887509de49877851a4cf922843558e80d
+Model config XLMRobertaConfig {
+  "_name_or_path": "l3cube-pune/hing-roberta",
+  "architectures": [
+    "XLMRobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.20.1",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+loading weights file https://huggingface.co/l3cube-pune/hing-roberta/resolve/main/pytorch_model.bin from cache at /home/diptesh/.cache/huggingface/transformers/56b4dbe406c64749542918093b30992ea3668715a139abdb3714b27268c80c04.0631771d765976a1f286bf7e56e9f48a5c39e13b284bd949eecfed3632d8737e
+Some weights of the model checkpoint at l3cube-pune/hing-roberta were not used when initializing XLMRobertaForSequenceClassification: ['lm_head.dense.bias', 'lm_head.layer_norm.weight', 'lm_head.bias', 'lm_head.layer_norm.bias', 'lm_head.dense.weight']
+- This IS expected if you are initializing XLMRobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing XLMRobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of XLMRobertaForSequenceClassification were not initialized from the model checkpoint at l3cube-pune/hing-roberta and are newly initialized: ['classifier.out_proj.weight', 'classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/Hing-RoBERTa/l3cube-pune/hing-roberta-finetuned-code-mixed-DS is already a clone of https://huggingface.co/dipteshkanojia/hing-roberta-finetuned-code-mixed-DS. Make sure you pull the latest changes with `repo.git_pull()`.
+loading configuration file https://huggingface.co/l3cube-pune/hing-roberta/resolve/main/config.json from cache at /home/diptesh/.cache/huggingface/transformers/ed92fb88ed46d9f23a6514be7a2e617a028bb7c3089be4d3be76845ba4e2a3a8.f68f7882f42cb68c7da20e8f54901da887509de49877851a4cf922843558e80d
+Model config XLMRobertaConfig {
+  "_name_or_path": "l3cube-pune/hing-roberta",
+  "architectures": [
+    "XLMRobertaForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.20.1",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
+loading weights file https://huggingface.co/l3cube-pune/hing-roberta/resolve/main/pytorch_model.bin from cache at /home/diptesh/.cache/huggingface/transformers/56b4dbe406c64749542918093b30992ea3668715a139abdb3714b27268c80c04.0631771d765976a1f286bf7e56e9f48a5c39e13b284bd949eecfed3632d8737e
+Some weights of the model checkpoint at l3cube-pune/hing-roberta were not used when initializing XLMRobertaForSequenceClassification: ['lm_head.dense.bias', 'lm_head.layer_norm.weight', 'lm_head.bias', 'lm_head.layer_norm.bias', 'lm_head.dense.weight']
+- This IS expected if you are initializing XLMRobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing XLMRobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of XLMRobertaForSequenceClassification were not initialized from the model checkpoint at l3cube-pune/hing-roberta and are newly initialized: ['classifier.out_proj.weight', 'classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 3976
+  Num Epochs = 4
+  Instantaneous batch size per device = 4
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 1988
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 16
+{'loss': 1.0216, 'learning_rate': 4.111229179961814e-05, 'epoch': 1.0}
+Saving model checkpoint to l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-497
+Configuration saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-497/config.json
+{'eval_loss': 1.1362717151641846, 'eval_accuracy': 0.5392354124748491, 'eval_precision': 0.4228287841191067, 'eval_recall': 0.35120250187890917, 'eval_f1': 0.2876367806786751, 'eval_runtime': 2.519, 'eval_samples_per_second': 197.303, 'eval_steps_per_second': 12.704, 'epoch': 1.0}
+Model weights saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-497/pytorch_model.bin
+tokenizer config file saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-497/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-497/special_tokens_map.json
+tokenizer config file saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/special_tokens_map.json
+Adding files tracked by Git LFS: ['tokenizer.json']. This may take a bit of time if the files are large.
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 16
+{'loss': 0.9085, 'learning_rate': 2.740819453307876e-05, 'epoch': 2.0}
+Saving model checkpoint to l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-994
+Configuration saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-994/config.json
+{'eval_loss': 0.759894847869873, 'eval_accuracy': 0.676056338028169, 'eval_precision': 0.6247238712755955, 'eval_recall': 0.6294011787518418, 'eval_f1': 0.5902176017398537, 'eval_runtime': 2.4745, 'eval_samples_per_second': 200.852, 'eval_steps_per_second': 12.932, 'epoch': 2.0}
+Model weights saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-994/pytorch_model.bin
+tokenizer config file saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-994/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-994/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 16
+{'loss': 0.676, 'learning_rate': 1.370409726653938e-05, 'epoch': 3.0}
+Saving model checkpoint to l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-1491
+Configuration saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-1491/config.json
+{'eval_loss': 0.7415341138839722, 'eval_accuracy': 0.7505030181086519, 'eval_precision': 0.6946100064461745, 'eval_recall': 0.7034458256966026, 'eval_f1': 0.6983251353770618, 'eval_runtime': 2.5236, 'eval_samples_per_second': 196.94, 'eval_steps_per_second': 12.68, 'epoch': 3.0}
+Model weights saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-1491/pytorch_model.bin
+tokenizer config file saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-1491/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/checkpoint-1491/special_tokens_map.json
+tokenizer config file saved in l3cube-pune/hing-roberta-finetuned-code-mixed-DS/tokenizer_config.json
