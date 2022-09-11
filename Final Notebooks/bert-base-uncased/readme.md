@@ -5,9 +5,10 @@
 * ours dataset
 * TRAC dataset
 * code-mixed dataset
+* combined dataset
+* non code-mixed dataset
 ### Currently running ###
 * 
 ### To be run ###
-* combined dataset
-* non code-mixed dataset
+*
 
