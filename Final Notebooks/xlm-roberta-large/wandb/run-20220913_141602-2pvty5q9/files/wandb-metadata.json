@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.14.0-1048-oem-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-09-13T13:16:03.631431",
+    "startedAt": "2022-09-13T13:16:02.907255",
+    "docker": null,
+    "gpu": "NVIDIA RTX A5000",
+    "gpu_count": 2,
+    "cpu_count": 36,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/nazianafis/NLP-Project.git",
+        "commit": "aab936622134014e7842883ae18d1fa7c4affeba"
+    },
+    "email": "dipteshkanojia@gmail.com",
+    "root": "/home/diptesh/workspace/AggressionDetection-IIITL",
+    "host": "AI-NLP01",
+    "username": "diptesh",
+    "executable": "/home/diptesh/anaconda3/envs/aggDet/bin/python"
+}

@@ -1,0 +1,19 @@
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 16
+{'loss': 0.6977, 'learning_rate': 9.129116715423237e-06, 'epoch': 2.0}
+Saving model checkpoint to l3cube-pune/hing-mbert-finetuned-code-mixed-DS/checkpoint-497
+Configuration saved in l3cube-pune/hing-mbert-finetuned-code-mixed-DS/checkpoint-497/config.json
+{'eval_loss': 0.7248303294181824, 'eval_accuracy': 0.7364185110663984, 'eval_precision': 0.6846841491793714, 'eval_recall': 0.7047776637150994, 'eval_f1': 0.6901116411764446, 'eval_runtime': 2.2795, 'eval_samples_per_second': 218.03, 'eval_steps_per_second': 14.038, 'epoch': 2.0}
+Model weights saved in l3cube-pune/hing-mbert-finetuned-code-mixed-DS/checkpoint-497/pytorch_model.bin
+tokenizer config file saved in l3cube-pune/hing-mbert-finetuned-code-mixed-DS/checkpoint-497/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-mbert-finetuned-code-mixed-DS/checkpoint-497/special_tokens_map.json
+tokenizer config file saved in l3cube-pune/hing-mbert-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-mbert-finetuned-code-mixed-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from l3cube-pune/hing-mbert-finetuned-code-mixed-DS/checkpoint-497 (score: 0.6901116411764446).
+{'train_runtime': 221.156, 'train_samples_per_second': 53.935, 'train_steps_per_second': 3.378, 'train_loss': 0.5846518704211376, 'epoch': 3.0}

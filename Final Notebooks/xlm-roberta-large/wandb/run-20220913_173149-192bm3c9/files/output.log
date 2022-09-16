@@ -1,0 +1,16 @@
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 927
+  Batch size = 16
+{'loss': 0.9924, 'learning_rate': 1.2476388372231341e-05, 'epoch': 2.0}
+Saving model checkpoint to xlm-roberta-large-finetuned-non-code-mixed-DS/checkpoint-926
+Configuration saved in xlm-roberta-large-finetuned-non-code-mixed-DS/checkpoint-926/config.json
+{'eval_loss': 0.8156959414482117, 'eval_accuracy': 0.6375404530744336, 'eval_precision': 0.6269628243981059, 'eval_recall': 0.6372259316657735, 'eval_f1': 0.6276170504487463, 'eval_runtime': 8.4396, 'eval_samples_per_second': 109.84, 'eval_steps_per_second': 6.872, 'epoch': 2.0}
+Model weights saved in xlm-roberta-large-finetuned-non-code-mixed-DS/checkpoint-926/pytorch_model.bin
+tokenizer config file saved in xlm-roberta-large-finetuned-non-code-mixed-DS/checkpoint-926/tokenizer_config.json
+Special tokens file saved in xlm-roberta-large-finetuned-non-code-mixed-DS/checkpoint-926/special_tokens_map.json
+tokenizer config file saved in xlm-roberta-large-finetuned-non-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in xlm-roberta-large-finetuned-non-code-mixed-DS/special_tokens_map.json
+Adding files tracked by Git LFS: ['tokenizer.json']. This may take a bit of time if the files are large.
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.

@@ -1,0 +1,31 @@
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 16
+{'loss': 0.7111, 'learning_rate': 1.6964108854075868e-05, 'epoch': 2.0}
+Saving model checkpoint to l3cube-pune/hing-mbert-finetuned-TRAC-DS/checkpoint-1224
+Configuration saved in l3cube-pune/hing-mbert-finetuned-TRAC-DS/checkpoint-1224/config.json
+{'eval_loss': 0.7772039771080017, 'eval_accuracy': 0.6683006535947712, 'eval_precision': 0.6694638638601856, 'eval_recall': 0.6793421664730047, 'eval_f1': 0.6557840233275177, 'eval_runtime': 5.4005, 'eval_samples_per_second': 226.646, 'eval_steps_per_second': 14.258, 'epoch': 2.0}
+Model weights saved in l3cube-pune/hing-mbert-finetuned-TRAC-DS/checkpoint-1224/pytorch_model.bin
+tokenizer config file saved in l3cube-pune/hing-mbert-finetuned-TRAC-DS/checkpoint-1224/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-mbert-finetuned-TRAC-DS/checkpoint-1224/special_tokens_map.json
+tokenizer config file saved in l3cube-pune/hing-mbert-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-mbert-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 16
+{'loss': 0.3026, 'learning_rate': 5.685418339470293e-06, 'epoch': 3.99}
+Saving model checkpoint to l3cube-pune/hing-mbert-finetuned-TRAC-DS/checkpoint-2448
+Configuration saved in l3cube-pune/hing-mbert-finetuned-TRAC-DS/checkpoint-2448/config.json
+{'eval_loss': 1.3580210208892822, 'eval_accuracy': 0.701797385620915, 'eval_precision': 0.6759247340140234, 'eval_recall': 0.6721644293346619, 'eval_f1': 0.6736665960360307, 'eval_runtime': 5.664, 'eval_samples_per_second': 216.102, 'eval_steps_per_second': 13.595, 'epoch': 3.99}
+Model weights saved in l3cube-pune/hing-mbert-finetuned-TRAC-DS/checkpoint-2448/pytorch_model.bin
+tokenizer config file saved in l3cube-pune/hing-mbert-finetuned-TRAC-DS/checkpoint-2448/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-mbert-finetuned-TRAC-DS/checkpoint-2448/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from l3cube-pune/hing-mbert-finetuned-TRAC-DS/checkpoint-2448 (score: 0.6736665960360307).
+{'train_runtime': 644.251, 'train_samples_per_second': 76.019, 'train_steps_per_second': 4.757, 'train_loss': 0.4309487223041777, 'epoch': 5.0}
