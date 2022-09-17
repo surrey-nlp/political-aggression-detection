@@ -1,0 +1,50 @@
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 8
+{'loss': 1.1358, 'learning_rate': 3.94721890998806e-05, 'epoch': 0.25}
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Saving model checkpoint to xlm-roberta-large-finetuned-TRAC-DS/checkpoint-612
+Configuration saved in xlm-roberta-large-finetuned-TRAC-DS/checkpoint-612/config.json
+{'eval_loss': 1.1002637147903442, 'eval_accuracy': 0.44362745098039214, 'eval_precision': 0.14787581699346405, 'eval_recall': 0.3333333333333333, 'eval_f1': 0.20486700622524054, 'eval_runtime': 20.7218, 'eval_samples_per_second': 59.068, 'eval_steps_per_second': 7.384, 'epoch': 0.25}
+Model weights saved in xlm-roberta-large-finetuned-TRAC-DS/checkpoint-612/pytorch_model.bin
+tokenizer config file saved in xlm-roberta-large-finetuned-TRAC-DS/checkpoint-612/tokenizer_config.json
+Special tokens file saved in xlm-roberta-large-finetuned-TRAC-DS/checkpoint-612/special_tokens_map.json
+tokenizer config file saved in xlm-roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in xlm-roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+Adding files tracked by Git LFS: ['tokenizer.json']. This may take a bit of time if the files are large.
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 8
+{'loss': 1.1199, 'learning_rate': 3.775673818885042e-05, 'epoch': 0.5}
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Saving model checkpoint to xlm-roberta-large-finetuned-TRAC-DS/checkpoint-1224
+Configuration saved in xlm-roberta-large-finetuned-TRAC-DS/checkpoint-1224/config.json
+{'eval_loss': 1.1129651069641113, 'eval_accuracy': 0.44362745098039214, 'eval_precision': 0.14787581699346405, 'eval_recall': 0.3333333333333333, 'eval_f1': 0.20486700622524054, 'eval_runtime': 20.3466, 'eval_samples_per_second': 60.157, 'eval_steps_per_second': 7.52, 'epoch': 0.5}
+Model weights saved in xlm-roberta-large-finetuned-TRAC-DS/checkpoint-1224/pytorch_model.bin
+tokenizer config file saved in xlm-roberta-large-finetuned-TRAC-DS/checkpoint-1224/tokenizer_config.json
+Special tokens file saved in xlm-roberta-large-finetuned-TRAC-DS/checkpoint-1224/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 1.1221, 'learning_rate': 3.604128727782025e-05, 'epoch': 0.75}
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 8
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Saving model checkpoint to xlm-roberta-large-finetuned-TRAC-DS/checkpoint-1836
+Configuration saved in xlm-roberta-large-finetuned-TRAC-DS/checkpoint-1836/config.json
+{'eval_loss': 1.0992172956466675, 'eval_accuracy': 0.3341503267973856, 'eval_precision': 0.1113834422657952, 'eval_recall': 0.3333333333333333, 'eval_f1': 0.16697285160236783, 'eval_runtime': 20.5261, 'eval_samples_per_second': 59.631, 'eval_steps_per_second': 7.454, 'epoch': 0.75}
+Model weights saved in xlm-roberta-large-finetuned-TRAC-DS/checkpoint-1836/pytorch_model.bin
+tokenizer config file saved in xlm-roberta-large-finetuned-TRAC-DS/checkpoint-1836/tokenizer_config.json
+Special tokens file saved in xlm-roberta-large-finetuned-TRAC-DS/checkpoint-1836/special_tokens_map.json
+tokenizer config file saved in xlm-roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in xlm-roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from xlm-roberta-large-finetuned-TRAC-DS/checkpoint-612 (score: 0.20486700622524054).
+{'train_runtime': 943.2785, 'train_samples_per_second': 62.304, 'train_steps_per_second': 15.578, 'train_loss': 1.125912103258187, 'epoch': 0.75}

@@ -4886,6 +4886,26 @@ _wandb:
       5: 1
       6:
       - 1
+    - 1: train/train_runtime
+      5: 1
+      6:
+      - 1
+    - 1: train/train_samples_per_second
+      5: 1
+      6:
+      - 1
+    - 1: train/train_steps_per_second
+      5: 1
+      6:
+      - 1
+    - 1: train/total_flos
+      5: 1
+      6:
+      - 1
+    - 1: train/train_loss
+      5: 1
+      6:
+      - 1
     python_version: 3.8.13
     start_time: 1662785893.412248
     t:
@@ -4907,6 +4927,7 @@ _wandb:
       - 55
       3:
       - 1
+      - 2
       - 7
       - 13
       - 23

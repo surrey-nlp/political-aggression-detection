@@ -1,0 +1,90 @@
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 16
+{'loss': 1.1084, 'learning_rate': 3.775813855694106e-05, 'epoch': 0.5}
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Saving model checkpoint to xlm-roberta-base-finetuned-TRAC-DS/checkpoint-612
+Configuration saved in xlm-roberta-base-finetuned-TRAC-DS/checkpoint-612/config.json
+{'eval_loss': 1.1023809909820557, 'eval_accuracy': 0.44362745098039214, 'eval_precision': 0.14787581699346405, 'eval_recall': 0.3333333333333333, 'eval_f1': 0.20486700622524054, 'eval_runtime': 6.9226, 'eval_samples_per_second': 176.811, 'eval_steps_per_second': 11.123, 'epoch': 0.5}
+Model weights saved in xlm-roberta-base-finetuned-TRAC-DS/checkpoint-612/pytorch_model.bin
+tokenizer config file saved in xlm-roberta-base-finetuned-TRAC-DS/checkpoint-612/tokenizer_config.json
+Special tokens file saved in xlm-roberta-base-finetuned-TRAC-DS/checkpoint-612/special_tokens_map.json
+tokenizer config file saved in xlm-roberta-base-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in xlm-roberta-base-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 1.1044, 'learning_rate': 3.4328637102971346e-05, 'epoch': 1.0}
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 16
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Saving model checkpoint to xlm-roberta-base-finetuned-TRAC-DS/checkpoint-1224
+Configuration saved in xlm-roberta-base-finetuned-TRAC-DS/checkpoint-1224/config.json
+{'eval_loss': 1.0976959466934204, 'eval_accuracy': 0.3341503267973856, 'eval_precision': 0.1113834422657952, 'eval_recall': 0.3333333333333333, 'eval_f1': 0.16697285160236783, 'eval_runtime': 6.8818, 'eval_samples_per_second': 177.861, 'eval_steps_per_second': 11.189, 'epoch': 1.0}
+Model weights saved in xlm-roberta-base-finetuned-TRAC-DS/checkpoint-1224/pytorch_model.bin
+tokenizer config file saved in xlm-roberta-base-finetuned-TRAC-DS/checkpoint-1224/tokenizer_config.json
+Special tokens file saved in xlm-roberta-base-finetuned-TRAC-DS/checkpoint-1224/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 1.1069, 'learning_rate': 3.089913564900164e-05, 'epoch': 1.5}
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 16
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Saving model checkpoint to xlm-roberta-base-finetuned-TRAC-DS/checkpoint-1836
+Configuration saved in xlm-roberta-base-finetuned-TRAC-DS/checkpoint-1836/config.json
+{'eval_loss': 1.0961929559707642, 'eval_accuracy': 0.3341503267973856, 'eval_precision': 0.1113834422657952, 'eval_recall': 0.3333333333333333, 'eval_f1': 0.16697285160236783, 'eval_runtime': 6.9264, 'eval_samples_per_second': 176.716, 'eval_steps_per_second': 11.117, 'epoch': 1.5}
+Model weights saved in xlm-roberta-base-finetuned-TRAC-DS/checkpoint-1836/pytorch_model.bin
+tokenizer config file saved in xlm-roberta-base-finetuned-TRAC-DS/checkpoint-1836/tokenizer_config.json
+Special tokens file saved in xlm-roberta-base-finetuned-TRAC-DS/checkpoint-1836/special_tokens_map.json
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/logging/__init__.py", line 1089, in emit
+    self.flush()
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/logging/__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 28] No space left on device
+Call stack:
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/wandb/sdk/internal/internal_util.py", line 51, in run
+    self._run()
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/wandb/sdk/internal/internal_util.py", line 102, in _run
+    self._process(record)
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/wandb/sdk/internal/internal.py", line 310, in _process
+    self._sm.send(record)
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 304, in send
+    send_handler(record)
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 316, in send_request
+    logger.debug(f"send_request: {request_type}")
+Message: 'send_request: stop_status'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/logging/__init__.py", line 1089, in emit
+    self.flush()
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/logging/__init__.py", line 1069, in flush
+    self.stream.flush()
+OSError: [Errno 28] No space left on device
+Call stack:
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/wandb/vendor/watchdog/observers/api.py", line 199, in run
+    self.dispatch_events(self.event_queue, self.timeout)
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/wandb/vendor/watchdog/observers/api.py", line 368, in dispatch_events
+    handler.dispatch(event)
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/wandb/vendor/watchdog/events.py", line 454, in dispatch
+    _method_map[event_type](event)
+  File "/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/wandb/filesync/dir_watcher.py", line 292, in _on_file_modified
+    logger.info(f"file/dir modified: { event.src_path}")
+Message: 'file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/xlm-roberta-base/wandb/run-20220914_113729-1322n5tw/files/output.log'
+Arguments: ()

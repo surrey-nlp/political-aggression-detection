@@ -1,0 +1,142 @@
+loading configuration file https://huggingface.co/l3cube-pune/hing-mbert/resolve/main/config.json from cache at /home/diptesh/.cache/huggingface/transformers/99deaf3e53bff9f1eee4e865526f0dfd559fb3c6a90b66e25dcd84a2b1f0120c.380aaffc7dd55e68a2ae770db8777374a141fe08aa4caf295f7f10b0746056e3
+Model config BertConfig {
+  "_name_or_path": "l3cube-pune/hing-mbert",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "directionality": "bidi",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.20.1",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 119547
+}
+loading weights file https://huggingface.co/l3cube-pune/hing-mbert/resolve/main/pytorch_model.bin from cache at /home/diptesh/.cache/huggingface/transformers/91e25528f1a47308c337bd60b4f042a79d4fb3eff1c7e914ebdbb42eb3811c93.43281d27722e2ebfda8adc4e5494077b27794cf92667c018981827879bcdb4f0
+Some weights of the model checkpoint at l3cube-pune/hing-mbert were not used when initializing BertForSequenceClassification: ['cls.predictions.decoder.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at l3cube-pune/hing-mbert and are newly initialized: ['classifier.weight', 'bert.pooler.dense.weight', 'bert.pooler.dense.bias', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/Hing-mBERT/l3cube-pune/hing-mbert-finetuned-combined-DS is already a clone of https://huggingface.co/dipteshkanojia/hing-mbert-finetuned-combined-DS. Make sure you pull the latest changes with `repo.git_pull()`.
+loading configuration file https://huggingface.co/l3cube-pune/hing-mbert/resolve/main/config.json from cache at /home/diptesh/.cache/huggingface/transformers/99deaf3e53bff9f1eee4e865526f0dfd559fb3c6a90b66e25dcd84a2b1f0120c.380aaffc7dd55e68a2ae770db8777374a141fe08aa4caf295f7f10b0746056e3
+Model config BertConfig {
+  "_name_or_path": "l3cube-pune/hing-mbert",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "directionality": "bidi",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.20.1",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 119547
+}
+loading weights file https://huggingface.co/l3cube-pune/hing-mbert/resolve/main/pytorch_model.bin from cache at /home/diptesh/.cache/huggingface/transformers/91e25528f1a47308c337bd60b4f042a79d4fb3eff1c7e914ebdbb42eb3811c93.43281d27722e2ebfda8adc4e5494077b27794cf92667c018981827879bcdb4f0
+Some weights of the model checkpoint at l3cube-pune/hing-mbert were not used when initializing BertForSequenceClassification: ['cls.predictions.decoder.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at l3cube-pune/hing-mbert and are newly initialized: ['classifier.weight', 'bert.pooler.dense.weight', 'bert.pooler.dense.bias', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 11390
+  Num Epochs = 4
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Gradient Accumulation steps = 1
+  Total optimization steps = 2848
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1424
+  Batch size = 16
+{'loss': 0.7382, 'learning_rate': 2.4415330608579243e-05, 'epoch': 2.0}
+{'eval_loss': 0.8027302026748657, 'eval_accuracy': 0.6748595505617978, 'eval_precision': 0.6543613946588228, 'eval_recall': 0.6590023794031193, 'eval_f1': 0.6538310633610133, 'eval_runtime': 7.155, 'eval_samples_per_second': 199.021, 'eval_steps_per_second': 12.439, 'epoch': 2.0}
+Saving model checkpoint to l3cube-pune/hing-mbert-finetuned-combined-DS/checkpoint-1423
+Configuration saved in l3cube-pune/hing-mbert-finetuned-combined-DS/checkpoint-1423/config.json
+Model weights saved in l3cube-pune/hing-mbert-finetuned-combined-DS/checkpoint-1423/pytorch_model.bin
+tokenizer config file saved in l3cube-pune/hing-mbert-finetuned-combined-DS/checkpoint-1423/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-mbert-finetuned-combined-DS/checkpoint-1423/special_tokens_map.json
+tokenizer config file saved in l3cube-pune/hing-mbert-finetuned-combined-DS/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-mbert-finetuned-combined-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1424
+  Batch size = 16
+{'loss': 0.2943, 'learning_rate': 3.426713067870771e-08, 'epoch': 4.0}
+Saving model checkpoint to l3cube-pune/hing-mbert-finetuned-combined-DS/checkpoint-2846
+Configuration saved in l3cube-pune/hing-mbert-finetuned-combined-DS/checkpoint-2846/config.json
+{'eval_loss': 1.4833147525787354, 'eval_accuracy': 0.6720505617977528, 'eval_precision': 0.645956845854308, 'eval_recall': 0.6443407778240501, 'eval_f1': 0.6446512714702194, 'eval_runtime': 7.0586, 'eval_samples_per_second': 201.738, 'eval_steps_per_second': 12.609, 'epoch': 4.0}
+Model weights saved in l3cube-pune/hing-mbert-finetuned-combined-DS/checkpoint-2846/pytorch_model.bin
+tokenizer config file saved in l3cube-pune/hing-mbert-finetuned-combined-DS/checkpoint-2846/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-mbert-finetuned-combined-DS/checkpoint-2846/special_tokens_map.json
+tokenizer config file saved in l3cube-pune/hing-mbert-finetuned-combined-DS/tokenizer_config.json
+Special tokens file saved in l3cube-pune/hing-mbert-finetuned-combined-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from l3cube-pune/hing-mbert-finetuned-combined-DS/checkpoint-1423 (score: 0.6538310633610133).
+{'train_runtime': 816.3172, 'train_samples_per_second': 55.812, 'train_steps_per_second': 3.489, 'train_loss': 0.5161519729940409, 'epoch': 4.0}

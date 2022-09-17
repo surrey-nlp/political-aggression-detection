@@ -149,8 +149,8 @@ def tune_transformer(dataset_details, model_name, num_samples=4, gpus_per_trial=
     )
 
     tune_config = {
-        "per_device_train_batch_size": tune.choice([8, 16]),
-        "per_device_eval_batch_size": tune.choice([8, 16]),
+        "per_device_train_batch_size": tune.choice([4, 8]),
+        "per_device_eval_batch_size": tune.choice([8]),
         "num_train_epochs": tune.choice([2, 3, 4, 5, 6]),
         "max_steps": 1 if smoke_test else -1,  # Used for smoke test.
     }
@@ -166,7 +166,7 @@ def tune_transformer(dataset_details, model_name, num_samples=4, gpus_per_trial=
             # "learning_rate": [1e-3, 1e-4, 1e-5, 2e-5, 3e-5, 4e-5, 5e-5],
             "weight_decay": tune.uniform(0.1, 0.3),
             "learning_rate": tune.uniform(1e-5, 5e-5),
-            "per_device_train_batch_size": [8, 16]
+            "per_device_train_batch_size": [4]
         },
         
     )
@@ -189,9 +189,9 @@ def tune_transformer(dataset_details, model_name, num_samples=4, gpus_per_trial=
         scheduler=scheduler,
         keep_checkpoints_num=1,
         checkpoint_score_attr="training_iteration",
-        stop={"training_iteration": 4},
+        stop={"training_iteration": 5},
         progress_reporter=reporter,
-        local_dir="./ray_results/",
+        local_dir="./ray_results_l3cube_pune_hing_mbert/",
         name="tune_transformer_pbt_"+dataset_details[1], # Stores the results in corresponding dataset folder 
         log_to_file=True,
     )
@@ -236,8 +236,8 @@ if __name__ == "__main__":
 
     if args.smoke_test:
         for k, v in dataset_dict.items():
-            tune_transformer(v, "roberta-base", num_samples=1, gpus_per_trial=0, smoke_test=True)
+            tune_transformer(v, "l3cube-pune/hing-mbert", num_samples=5, gpus_per_trial=0, smoke_test=True)
     else:
         # You can change the number of GPUs here:
         for k, v in dataset_dict.items():
-            tune_transformer(v, "roberta-base", num_samples=5, gpus_per_trial=1)
+            tune_transformer(v, "l3cube-pune/hing-mbert", num_samples=10, gpus_per_trial=1)
