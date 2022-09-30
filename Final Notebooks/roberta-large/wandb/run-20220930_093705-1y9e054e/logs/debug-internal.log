@@ -1,0 +1,171 @@
+2022-09-30 09:37:05,627 INFO    StreamThr :1753271 [internal.py:wandb_internal():90] W&B internal server running at pid: 1753271, started at: 2022-09-30 09:37:05.627054
+2022-09-30 09:37:05,631 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: status
+2022-09-30 09:37:05,843 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: status
+2022-09-30 09:37:05,846 DEBUG   SenderThread:1753271 [sender.py:send():302] send: header
+2022-09-30 09:37:05,846 INFO    WriterThread:1753271 [datastore.py:open_for_write():75] open: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/run-1y9e054e.wandb
+2022-09-30 09:37:05,917 DEBUG   SenderThread:1753271 [sender.py:send():302] send: run
+2022-09-30 09:37:06,272 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: check_version
+2022-09-30 09:37:06,280 INFO    SenderThread:1753271 [dir_watcher.py:__init__():216] watching files in: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files
+2022-09-30 09:37:06,280 INFO    SenderThread:1753271 [sender.py:_start_run_threads():913] run started: 1y9e054e with start time 1664527025.618509
+2022-09-30 09:37:06,280 DEBUG   SenderThread:1753271 [sender.py:send():302] send: summary
+2022-09-30 09:37:06,281 INFO    SenderThread:1753271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-30 09:37:06,281 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: check_version
+2022-09-30 09:37:06,374 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: run_start
+2022-09-30 09:37:06,380 DEBUG   HandlerThread:1753271 [meta.py:__init__():35] meta init
+2022-09-30 09:37:06,380 DEBUG   HandlerThread:1753271 [meta.py:__init__():50] meta init done
+2022-09-30 09:37:06,380 DEBUG   HandlerThread:1753271 [meta.py:probe():216] probe
+2022-09-30 09:37:06,387 DEBUG   HandlerThread:1753271 [meta.py:_setup_git():206] setup git
+2022-09-30 09:37:06,418 DEBUG   HandlerThread:1753271 [meta.py:_setup_git():213] setup git done
+2022-09-30 09:37:06,418 DEBUG   HandlerThread:1753271 [meta.py:_save_pip():54] save pip
+2022-09-30 09:37:06,419 DEBUG   HandlerThread:1753271 [meta.py:_save_pip():68] save pip done
+2022-09-30 09:37:06,420 DEBUG   HandlerThread:1753271 [meta.py:_save_conda():75] save conda
+2022-09-30 09:37:07,285 INFO    Thread-12 :1753271 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/requirements.txt
+2022-09-30 09:37:07,286 INFO    Thread-12 :1753271 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/conda-environment.yaml
+2022-09-30 09:37:07,286 INFO    Thread-12 :1753271 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/wandb-summary.json
+2022-09-30 09:37:10,287 INFO    Thread-12 :1753271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/conda-environment.yaml
+2022-09-30 09:37:10,404 DEBUG   HandlerThread:1753271 [meta.py:_save_conda():85] save conda done
+2022-09-30 09:37:10,404 DEBUG   HandlerThread:1753271 [meta.py:probe():254] probe done
+2022-09-30 09:37:10,408 DEBUG   SenderThread:1753271 [sender.py:send():302] send: files
+2022-09-30 09:37:10,409 INFO    SenderThread:1753271 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-30 09:37:10,426 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-30 09:37:10,427 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: stop_status
+2022-09-30 09:37:10,596 DEBUG   SenderThread:1753271 [sender.py:send():302] send: telemetry
+2022-09-30 09:37:10,597 DEBUG   SenderThread:1753271 [sender.py:send():302] send: config
+2022-09-30 09:37:10,598 DEBUG   SenderThread:1753271 [sender.py:send():302] send: metric
+2022-09-30 09:37:10,599 DEBUG   SenderThread:1753271 [sender.py:send():302] send: telemetry
+2022-09-30 09:37:10,599 DEBUG   SenderThread:1753271 [sender.py:send():302] send: metric
+2022-09-30 09:37:10,600 WARNING SenderThread:1753271 [sender.py:send_metric():1112] Seen metric with glob (shouldn't happen)
+2022-09-30 09:37:10,600 DEBUG   SenderThread:1753271 [sender.py:send():302] send: telemetry
+2022-09-30 09:37:10,928 INFO    Thread-16 :1753271 [upload_job.py:push():138] Uploaded file /tmp/tmpafq_s11gwandb/1kkafcng-wandb-metadata.json
+2022-09-30 09:37:11,288 INFO    Thread-12 :1753271 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/wandb-metadata.json
+2022-09-30 09:37:15,290 INFO    Thread-12 :1753271 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/output.log
+2022-09-30 09:37:17,292 INFO    Thread-12 :1753271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/output.log
+2022-09-30 09:37:17,727 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: pause
+2022-09-30 09:37:17,728 INFO    HandlerThread:1753271 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-09-30 09:37:17,843 DEBUG   SenderThread:1753271 [sender.py:send():302] send: stats
+2022-09-30 09:37:25,601 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-30 09:37:25,602 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: stop_status
+2022-09-30 09:37:36,307 INFO    Thread-12 :1753271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/config.yaml
+2022-09-30 09:37:40,762 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-30 09:37:40,763 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: stop_status
+2022-09-30 09:37:54,277 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-30 09:37:54,277 DEBUG   SenderThread:1753271 [sender.py:send():302] send: exit
+2022-09-30 09:37:54,278 INFO    SenderThread:1753271 [sender.py:send_exit():438] handling exit code: 0
+2022-09-30 09:37:54,278 INFO    SenderThread:1753271 [sender.py:send_exit():440] handling runtime: 11
+2022-09-30 09:37:54,282 INFO    SenderThread:1753271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-30 09:37:54,282 INFO    SenderThread:1753271 [sender.py:send_exit():446] send defer
+2022-09-30 09:37:54,283 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-30 09:37:54,284 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: defer
+2022-09-30 09:37:54,284 INFO    HandlerThread:1753271 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-30 09:37:54,284 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: defer
+2022-09-30 09:37:54,285 INFO    SenderThread:1753271 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-09-30 09:37:54,285 INFO    SenderThread:1753271 [sender.py:transition_state():459] send defer: 1
+2022-09-30 09:37:54,285 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: defer
+2022-09-30 09:37:54,285 INFO    HandlerThread:1753271 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-30 09:37:54,286 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: defer
+2022-09-30 09:37:54,286 INFO    SenderThread:1753271 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-09-30 09:37:54,286 INFO    SenderThread:1753271 [sender.py:transition_state():459] send defer: 2
+2022-09-30 09:37:54,286 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: defer
+2022-09-30 09:37:54,286 INFO    HandlerThread:1753271 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-30 09:37:54,286 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: defer
+2022-09-30 09:37:54,286 INFO    SenderThread:1753271 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-09-30 09:37:54,287 INFO    SenderThread:1753271 [sender.py:transition_state():459] send defer: 3
+2022-09-30 09:37:54,287 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: defer
+2022-09-30 09:37:54,287 INFO    HandlerThread:1753271 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-30 09:37:54,287 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: defer
+2022-09-30 09:37:54,287 INFO    SenderThread:1753271 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-09-30 09:37:54,287 INFO    SenderThread:1753271 [sender.py:transition_state():459] send defer: 4
+2022-09-30 09:37:54,288 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: defer
+2022-09-30 09:37:54,288 INFO    HandlerThread:1753271 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-30 09:37:54,288 DEBUG   SenderThread:1753271 [sender.py:send():302] send: summary
+2022-09-30 09:37:54,291 INFO    SenderThread:1753271 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-30 09:37:54,291 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: defer
+2022-09-30 09:37:54,291 INFO    SenderThread:1753271 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-09-30 09:37:54,291 INFO    SenderThread:1753271 [sender.py:transition_state():459] send defer: 5
+2022-09-30 09:37:54,292 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: defer
+2022-09-30 09:37:54,292 INFO    HandlerThread:1753271 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-30 09:37:54,292 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: defer
+2022-09-30 09:37:54,292 INFO    SenderThread:1753271 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-09-30 09:37:54,292 INFO    SenderThread:1753271 [sender.py:transition_state():459] send defer: 6
+2022-09-30 09:37:54,293 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: defer
+2022-09-30 09:37:54,293 INFO    HandlerThread:1753271 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-30 09:37:54,293 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: defer
+2022-09-30 09:37:54,293 INFO    SenderThread:1753271 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-09-30 09:37:54,320 INFO    Thread-12 :1753271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/wandb-summary.json
+2022-09-30 09:37:54,386 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-30 09:37:54,853 INFO    SenderThread:1753271 [sender.py:transition_state():459] send defer: 7
+2022-09-30 09:37:54,853 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-30 09:37:54,854 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: defer
+2022-09-30 09:37:54,855 INFO    HandlerThread:1753271 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-30 09:37:54,856 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: defer
+2022-09-30 09:37:54,856 INFO    SenderThread:1753271 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-09-30 09:37:54,856 INFO    SenderThread:1753271 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-30 09:37:54,957 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-30 09:37:55,321 INFO    Thread-12 :1753271 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/output.log
+2022-09-30 09:37:55,322 INFO    SenderThread:1753271 [dir_watcher.py:finish():392] scan: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files
+2022-09-30 09:37:55,323 INFO    SenderThread:1753271 [dir_watcher.py:finish():406] scan save: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/output.log output.log
+2022-09-30 09:37:55,323 INFO    SenderThread:1753271 [dir_watcher.py:finish():406] scan save: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/wandb-metadata.json wandb-metadata.json
+2022-09-30 09:37:55,323 INFO    SenderThread:1753271 [dir_watcher.py:finish():406] scan save: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/requirements.txt requirements.txt
+2022-09-30 09:37:55,324 INFO    SenderThread:1753271 [dir_watcher.py:finish():406] scan save: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/config.yaml config.yaml
+2022-09-30 09:37:55,324 INFO    SenderThread:1753271 [dir_watcher.py:finish():406] scan save: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/conda-environment.yaml conda-environment.yaml
+2022-09-30 09:37:55,345 INFO    SenderThread:1753271 [dir_watcher.py:finish():406] scan save: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/wandb-summary.json wandb-summary.json
+2022-09-30 09:37:55,346 INFO    SenderThread:1753271 [sender.py:transition_state():459] send defer: 8
+2022-09-30 09:37:55,347 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-30 09:37:55,362 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: defer
+2022-09-30 09:37:55,362 INFO    HandlerThread:1753271 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-30 09:37:55,365 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: defer
+2022-09-30 09:37:55,365 INFO    SenderThread:1753271 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-09-30 09:37:55,365 INFO    SenderThread:1753271 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-30 09:37:55,465 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-30 09:37:55,466 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-30 09:37:55,569 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-30 09:37:55,570 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-30 09:37:55,672 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-30 09:37:55,673 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-30 09:37:55,775 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-30 09:37:55,776 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-30 09:37:55,858 INFO    Thread-17 :1753271 [upload_job.py:push():138] Uploaded file /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/output.log
+2022-09-30 09:37:55,876 INFO    Thread-18 :1753271 [upload_job.py:push():138] Uploaded file /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/requirements.txt
+2022-09-30 09:37:55,878 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-30 09:37:55,879 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-30 09:37:55,900 INFO    Thread-19 :1753271 [upload_job.py:push():138] Uploaded file /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/config.yaml
+2022-09-30 09:37:55,904 INFO    Thread-20 :1753271 [upload_job.py:push():138] Uploaded file /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/conda-environment.yaml
+2022-09-30 09:37:55,922 INFO    Thread-21 :1753271 [upload_job.py:push():138] Uploaded file /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/files/wandb-summary.json
+2022-09-30 09:37:55,981 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-30 09:37:55,981 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-30 09:37:56,084 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-30 09:37:56,084 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-30 09:37:56,123 INFO    Thread-11 :1753271 [sender.py:transition_state():459] send defer: 9
+2022-09-30 09:37:56,124 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: defer
+2022-09-30 09:37:56,124 INFO    HandlerThread:1753271 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-30 09:37:56,124 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: defer
+2022-09-30 09:37:56,124 INFO    SenderThread:1753271 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-09-30 09:37:56,186 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-30 09:37:56,541 INFO    SenderThread:1753271 [sender.py:transition_state():459] send defer: 10
+2022-09-30 09:37:56,542 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-30 09:37:56,543 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: defer
+2022-09-30 09:37:56,544 INFO    HandlerThread:1753271 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-30 09:37:56,544 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: defer
+2022-09-30 09:37:56,544 INFO    SenderThread:1753271 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-09-30 09:37:56,544 INFO    SenderThread:1753271 [sender.py:transition_state():459] send defer: 11
+2022-09-30 09:37:56,545 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: defer
+2022-09-30 09:37:56,546 DEBUG   SenderThread:1753271 [sender.py:send():302] send: final
+2022-09-30 09:37:56,546 INFO    HandlerThread:1753271 [handler.py:handle_request_defer():164] handle defer: 11
+2022-09-30 09:37:56,546 DEBUG   SenderThread:1753271 [sender.py:send():302] send: footer
+2022-09-30 09:37:56,546 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: defer
+2022-09-30 09:37:56,546 INFO    SenderThread:1753271 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-09-30 09:37:56,645 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-30 09:37:56,645 DEBUG   SenderThread:1753271 [sender.py:send_request():316] send_request: poll_exit
+2022-09-30 09:37:56,645 INFO    SenderThread:1753271 [file_pusher.py:join():176] waiting for file pusher
+2022-09-30 09:37:57,063 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-30 09:37:57,064 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-30 09:37:57,065 INFO    MainThread:1753271 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-09-30 09:37:57,065 INFO    MainThread:1753271 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-09-30 09:37:57,065 INFO    MainThread:1753271 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-09-30 09:37:57,066 DEBUG   HandlerThread:1753271 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-30 09:37:57,066 INFO    HandlerThread:1753271 [handler.py:finish():810] shutting down handler
+2022-09-30 09:37:57,546 INFO    WriterThread:1753271 [datastore.py:close():279] close: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/roberta-large/wandb/run-20220930_093705-1y9e054e/run-1y9e054e.wandb
+2022-09-30 09:37:57,961 INFO    SenderThread:1753271 [sender.py:finish():1312] shutting down sender
+2022-09-30 09:37:57,961 INFO    SenderThread:1753271 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-30 09:37:57,962 INFO    SenderThread:1753271 [file_pusher.py:join():176] waiting for file pusher
+2022-09-30 09:37:58,070 INFO    MainThread:1753271 [internal.py:handle_exit():80] Internal process exited
