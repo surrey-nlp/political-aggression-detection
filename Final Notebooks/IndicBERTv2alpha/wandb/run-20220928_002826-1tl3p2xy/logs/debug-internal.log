@@ -1,0 +1,568 @@
+2022-09-28 00:28:26,356 INFO    StreamThr :1020629 [internal.py:wandb_internal():90] W&B internal server running at pid: 1020629, started at: 2022-09-28 00:28:26.355634
+2022-09-28 00:28:26,359 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: status
+2022-09-28 00:28:26,537 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: status
+2022-09-28 00:28:26,539 DEBUG   SenderThread:1020629 [sender.py:send():302] send: header
+2022-09-28 00:28:26,540 INFO    WriterThread:1020629 [datastore.py:open_for_write():75] open: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/run-1tl3p2xy.wandb
+2022-09-28 00:28:26,571 DEBUG   SenderThread:1020629 [sender.py:send():302] send: run
+2022-09-28 00:28:26,926 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: check_version
+2022-09-28 00:28:26,934 INFO    SenderThread:1020629 [dir_watcher.py:__init__():216] watching files in: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files
+2022-09-28 00:28:26,935 INFO    SenderThread:1020629 [sender.py:_start_run_threads():913] run started: 1tl3p2xy with start time 1664321306.348003
+2022-09-28 00:28:26,935 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:28:26,935 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:28:26,936 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: check_version
+2022-09-28 00:28:27,030 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: run_start
+2022-09-28 00:28:27,036 DEBUG   HandlerThread:1020629 [meta.py:__init__():35] meta init
+2022-09-28 00:28:27,036 DEBUG   HandlerThread:1020629 [meta.py:__init__():50] meta init done
+2022-09-28 00:28:27,036 DEBUG   HandlerThread:1020629 [meta.py:probe():216] probe
+2022-09-28 00:28:27,043 DEBUG   HandlerThread:1020629 [meta.py:_setup_git():206] setup git
+2022-09-28 00:28:27,072 DEBUG   HandlerThread:1020629 [meta.py:_setup_git():213] setup git done
+2022-09-28 00:28:27,073 DEBUG   HandlerThread:1020629 [meta.py:_save_pip():54] save pip
+2022-09-28 00:28:27,074 DEBUG   HandlerThread:1020629 [meta.py:_save_pip():68] save pip done
+2022-09-28 00:28:27,074 DEBUG   HandlerThread:1020629 [meta.py:_save_conda():75] save conda
+2022-09-28 00:28:27,939 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/requirements.txt
+2022-09-28 00:28:27,940 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/conda-environment.yaml
+2022-09-28 00:28:27,940 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:28:30,741 DEBUG   HandlerThread:1020629 [meta.py:_save_conda():85] save conda done
+2022-09-28 00:28:30,741 DEBUG   HandlerThread:1020629 [meta.py:probe():254] probe done
+2022-09-28 00:28:30,748 DEBUG   SenderThread:1020629 [sender.py:send():302] send: files
+2022-09-28 00:28:30,748 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-28 00:28:30,765 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:28:30,765 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:28:30,923 DEBUG   SenderThread:1020629 [sender.py:send():302] send: telemetry
+2022-09-28 00:28:30,923 DEBUG   SenderThread:1020629 [sender.py:send():302] send: config
+2022-09-28 00:28:30,926 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:28:30,926 DEBUG   SenderThread:1020629 [sender.py:send():302] send: telemetry
+2022-09-28 00:28:30,926 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:28:30,926 WARNING SenderThread:1020629 [sender.py:send_metric():1112] Seen metric with glob (shouldn't happen)
+2022-09-28 00:28:30,927 DEBUG   SenderThread:1020629 [sender.py:send():302] send: telemetry
+2022-09-28 00:28:30,937 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/conda-environment.yaml
+2022-09-28 00:28:30,937 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-metadata.json
+2022-09-28 00:28:31,330 INFO    Thread-16 :1020629 [upload_job.py:push():138] Uploaded file /tmp/tmp6ngdoauxwandb/3gxclqt3-wandb-metadata.json
+2022-09-28 00:28:34,940 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:28:36,942 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:28:45,932 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:28:45,932 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:28:55,980 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:28:57,954 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/config.yaml
+2022-09-28 00:29:01,090 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:29:01,091 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:29:16,260 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:29:16,260 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:29:26,899 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:29:31,413 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:29:31,413 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:29:46,571 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:29:46,571 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:29:54,002 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,016 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,017 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,017 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,018 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,018 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,018 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,019 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,019 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,019 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,020 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,020 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,020 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,021 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,021 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,021 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,022 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,058 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,059 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,059 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,060 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,060 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,061 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,061 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,062 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,062 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,063 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,063 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:54,076 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,085 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,085 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,086 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,086 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,086 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,086 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,086 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,086 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,087 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,087 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,087 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,087 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,087 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,087 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,087 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,088 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,088 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,088 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,088 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,088 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,088 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,088 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,088 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,089 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,089 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,089 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,089 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,089 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,089 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,089 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,090 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,090 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,090 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,090 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,090 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,090 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,090 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,090 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,091 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,091 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,091 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,091 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,091 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,091 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,091 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,092 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,092 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,092 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,092 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,092 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,092 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,092 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,092 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,093 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,093 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,093 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,093 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,093 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,093 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,093 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,093 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,094 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,094 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,094 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,094 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,094 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,094 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,094 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,095 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,095 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,095 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,095 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,095 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,095 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,095 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,096 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,096 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,096 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,096 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,096 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,096 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,096 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,096 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:54,097 DEBUG   SenderThread:1020629 [sender.py:send():302] send: history
+2022-09-28 00:29:54,102 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:29:54,134 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:29:54,991 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:29:55,665 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:29:55,671 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:55,671 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:55,672 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:55,672 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:55,674 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:55,675 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:55,675 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:55,675 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:29:55,676 DEBUG   SenderThread:1020629 [sender.py:send():302] send: history
+2022-09-28 00:29:55,676 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:29:55,685 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:29:55,991 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:29:56,992 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:29:57,815 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:29:58,994 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:29:59,994 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/config.yaml
+2022-09-28 00:30:01,730 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:30:01,731 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:30:09,002 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:30:13,005 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:30:16,888 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:30:16,889 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:30:28,714 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:30:32,048 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:30:32,048 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:30:47,223 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:30:47,224 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:30:59,603 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:31:02,374 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:31:02,375 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:31:17,534 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:31:17,535 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:31:30,442 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:31:32,516 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,517 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,518 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,518 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,519 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,519 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,520 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,521 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,521 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,522 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,523 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,525 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,526 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,526 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,527 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,528 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,528 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,529 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,530 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,531 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,531 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,532 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,533 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,533 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,534 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,534 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,535 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,548 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:32,565 DEBUG   SenderThread:1020629 [sender.py:send():302] send: history
+2022-09-28 00:31:32,571 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:31:32,578 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:31:32,691 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:31:32,691 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:31:33,052 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:31:34,197 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:31:34,203 DEBUG   SenderThread:1020629 [sender.py:send():302] send: history
+2022-09-28 00:31:34,204 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:31:34,215 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:31:35,053 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:31:35,054 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:31:37,055 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:31:41,058 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:31:47,845 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:31:47,846 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:32:01,355 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:32:03,014 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:32:03,014 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:32:03,071 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:32:18,173 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:32:18,173 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:32:32,267 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:32:33,333 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:32:33,333 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:32:48,488 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:32:48,488 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:33:03,139 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:33:03,643 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:33:03,643 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:33:18,803 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:33:18,804 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:33:23,358 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,359 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,360 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,360 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,361 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,362 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,362 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,363 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,364 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,365 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,366 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,367 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,368 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,368 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,369 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,370 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,371 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,371 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,372 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,373 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,374 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,374 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,375 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,376 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,376 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,377 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,378 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,387 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:23,398 DEBUG   SenderThread:1020629 [sender.py:send():302] send: history
+2022-09-28 00:33:23,409 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:33:23,420 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:33:24,122 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:33:25,077 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:33:25,084 DEBUG   SenderThread:1020629 [sender.py:send():302] send: history
+2022-09-28 00:33:25,084 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:33:25,091 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:33:25,122 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:33:25,122 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:33:27,123 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:33:33,126 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:33:33,976 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:33:33,977 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:33:34,128 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:33:49,235 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:33:49,236 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:33:59,146 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:34:04,438 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:34:04,438 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:34:05,002 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:34:19,582 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:34:19,583 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:34:34,742 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:34:34,743 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:34:35,900 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:34:49,899 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:34:49,899 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:35:05,057 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:35:05,057 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:35:06,786 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:35:19,099 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,114 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,114 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,115 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,115 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,116 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,116 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,116 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,117 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,117 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,117 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,118 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,118 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,119 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,119 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,119 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,120 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,120 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,153 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,154 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,155 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,155 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,156 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,156 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,156 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,157 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,157 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,157 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:19,171 DEBUG   SenderThread:1020629 [sender.py:send():302] send: history
+2022-09-28 00:35:19,180 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:35:19,187 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:35:19,194 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:35:20,211 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:35:20,212 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:35:20,789 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:35:20,796 DEBUG   SenderThread:1020629 [sender.py:send():302] send: history
+2022-09-28 00:35:20,796 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:35:20,804 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:35:21,196 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:35:21,197 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:35:23,197 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:35:29,202 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:35:35,398 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:35:35,399 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:35:37,691 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:35:50,551 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:35:50,552 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:35:59,221 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:36:05,753 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:36:05,753 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:36:08,556 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:36:20,910 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:36:20,910 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:36:36,065 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:36:36,065 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:36:39,480 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:36:51,229 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:36:51,229 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:37:06,475 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:37:06,476 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:37:10,354 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:37:19,171 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,185 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,185 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,186 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,186 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,186 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,187 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,187 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,187 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,188 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,188 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,188 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,189 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,189 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,189 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,190 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,190 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,190 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,226 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,226 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,227 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,227 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,227 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,228 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,228 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,228 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,229 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,229 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:19,244 DEBUG   SenderThread:1020629 [sender.py:send():302] send: history
+2022-09-28 00:37:19,251 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:37:19,258 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:37:19,268 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:37:20,876 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:37:20,883 DEBUG   SenderThread:1020629 [sender.py:send():302] send: history
+2022-09-28 00:37:20,883 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:37:20,891 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:37:21,269 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:37:21,269 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:37:21,678 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:37:21,678 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:37:23,270 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:37:27,273 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:37:36,898 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:37:36,898 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:37:41,272 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:37:52,086 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-28 00:37:52,087 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: stop_status
+2022-09-28 00:38:01,066 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-28 00:38:01,072 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:38:01,073 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:38:01,074 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:38:01,074 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:38:01,075 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:01,075 DEBUG   SenderThread:1020629 [sender.py:send():302] send: metric
+2022-09-28 00:38:01,076 DEBUG   SenderThread:1020629 [sender.py:send():302] send: history
+2022-09-28 00:38:01,076 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:38:01,083 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:38:01,083 DEBUG   SenderThread:1020629 [sender.py:send():302] send: telemetry
+2022-09-28 00:38:01,084 DEBUG   SenderThread:1020629 [sender.py:send():302] send: exit
+2022-09-28 00:38:01,084 INFO    SenderThread:1020629 [sender.py:send_exit():438] handling exit code: 0
+2022-09-28 00:38:01,084 INFO    SenderThread:1020629 [sender.py:send_exit():440] handling runtime: 574
+2022-09-28 00:38:01,113 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:38:01,113 INFO    SenderThread:1020629 [sender.py:send_exit():446] send defer
+2022-09-28 00:38:01,113 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:01,114 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: defer
+2022-09-28 00:38:01,114 INFO    HandlerThread:1020629 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-28 00:38:01,115 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: defer
+2022-09-28 00:38:01,115 INFO    SenderThread:1020629 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-09-28 00:38:01,115 INFO    SenderThread:1020629 [sender.py:transition_state():459] send defer: 1
+2022-09-28 00:38:01,116 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: defer
+2022-09-28 00:38:01,116 INFO    HandlerThread:1020629 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-28 00:38:01,225 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: defer
+2022-09-28 00:38:01,226 INFO    SenderThread:1020629 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-09-28 00:38:01,226 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:01,226 INFO    SenderThread:1020629 [sender.py:transition_state():459] send defer: 2
+2022-09-28 00:38:01,227 DEBUG   SenderThread:1020629 [sender.py:send():302] send: stats
+2022-09-28 00:38:01,227 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:01,227 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: defer
+2022-09-28 00:38:01,228 INFO    HandlerThread:1020629 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-28 00:38:01,228 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: defer
+2022-09-28 00:38:01,228 INFO    SenderThread:1020629 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-09-28 00:38:01,228 INFO    SenderThread:1020629 [sender.py:transition_state():459] send defer: 3
+2022-09-28 00:38:01,229 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: defer
+2022-09-28 00:38:01,229 INFO    HandlerThread:1020629 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-28 00:38:01,229 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: defer
+2022-09-28 00:38:01,230 INFO    SenderThread:1020629 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-09-28 00:38:01,230 INFO    SenderThread:1020629 [sender.py:transition_state():459] send defer: 4
+2022-09-28 00:38:01,230 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: defer
+2022-09-28 00:38:01,230 INFO    HandlerThread:1020629 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-28 00:38:01,235 DEBUG   SenderThread:1020629 [sender.py:send():302] send: summary
+2022-09-28 00:38:01,241 INFO    SenderThread:1020629 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-28 00:38:01,241 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: defer
+2022-09-28 00:38:01,242 INFO    SenderThread:1020629 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-09-28 00:38:01,242 INFO    SenderThread:1020629 [sender.py:transition_state():459] send defer: 5
+2022-09-28 00:38:01,242 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: defer
+2022-09-28 00:38:01,242 INFO    HandlerThread:1020629 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-28 00:38:01,243 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: defer
+2022-09-28 00:38:01,243 INFO    SenderThread:1020629 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-09-28 00:38:01,290 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:38:01,291 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:38:01,331 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:01,563 INFO    SenderThread:1020629 [sender.py:transition_state():459] send defer: 6
+2022-09-28 00:38:01,563 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:01,564 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: defer
+2022-09-28 00:38:01,565 INFO    HandlerThread:1020629 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-28 00:38:01,565 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: defer
+2022-09-28 00:38:01,565 INFO    SenderThread:1020629 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-09-28 00:38:01,667 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:02,291 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/config.yaml
+2022-09-28 00:38:03,292 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:38:04,850 INFO    SenderThread:1020629 [sender.py:transition_state():459] send defer: 7
+2022-09-28 00:38:04,850 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:04,851 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: defer
+2022-09-28 00:38:04,852 INFO    HandlerThread:1020629 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-28 00:38:04,852 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: defer
+2022-09-28 00:38:04,852 INFO    SenderThread:1020629 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-09-28 00:38:04,853 INFO    SenderThread:1020629 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-28 00:38:04,954 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:05,293 INFO    Thread-12 :1020629 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:38:05,294 INFO    SenderThread:1020629 [dir_watcher.py:finish():392] scan: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files
+2022-09-28 00:38:05,294 INFO    SenderThread:1020629 [dir_watcher.py:finish():406] scan save: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log output.log
+2022-09-28 00:38:05,295 INFO    SenderThread:1020629 [dir_watcher.py:finish():406] scan save: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-metadata.json wandb-metadata.json
+2022-09-28 00:38:05,295 INFO    SenderThread:1020629 [dir_watcher.py:finish():406] scan save: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/requirements.txt requirements.txt
+2022-09-28 00:38:05,295 INFO    SenderThread:1020629 [dir_watcher.py:finish():406] scan save: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/config.yaml config.yaml
+2022-09-28 00:38:05,307 INFO    SenderThread:1020629 [dir_watcher.py:finish():406] scan save: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/conda-environment.yaml conda-environment.yaml
+2022-09-28 00:38:05,308 INFO    SenderThread:1020629 [dir_watcher.py:finish():406] scan save: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json wandb-summary.json
+2022-09-28 00:38:05,316 INFO    SenderThread:1020629 [sender.py:transition_state():459] send defer: 8
+2022-09-28 00:38:05,317 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:05,318 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: defer
+2022-09-28 00:38:05,319 INFO    HandlerThread:1020629 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-28 00:38:05,325 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: defer
+2022-09-28 00:38:05,326 INFO    SenderThread:1020629 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-09-28 00:38:05,327 INFO    SenderThread:1020629 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-28 00:38:05,428 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:05,429 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:05,534 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:05,534 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:05,640 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:05,640 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:05,745 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:05,745 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:05,845 INFO    Thread-20 :1020629 [upload_job.py:push():138] Uploaded file /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/conda-environment.yaml
+2022-09-28 00:38:05,850 INFO    Thread-18 :1020629 [upload_job.py:push():138] Uploaded file /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/requirements.txt
+2022-09-28 00:38:05,853 INFO    Thread-19 :1020629 [upload_job.py:push():138] Uploaded file /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/config.yaml
+2022-09-28 00:38:05,854 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:05,854 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:05,904 INFO    Thread-21 :1020629 [upload_job.py:push():138] Uploaded file /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/wandb-summary.json
+2022-09-28 00:38:05,921 INFO    Thread-17 :1020629 [upload_job.py:push():138] Uploaded file /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/files/output.log
+2022-09-28 00:38:05,957 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:05,958 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:06,060 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:06,061 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:06,122 INFO    Thread-11 :1020629 [sender.py:transition_state():459] send defer: 9
+2022-09-28 00:38:06,123 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: defer
+2022-09-28 00:38:06,123 INFO    HandlerThread:1020629 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-28 00:38:06,123 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: defer
+2022-09-28 00:38:06,123 INFO    SenderThread:1020629 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-09-28 00:38:06,164 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:06,798 INFO    SenderThread:1020629 [sender.py:transition_state():459] send defer: 10
+2022-09-28 00:38:06,798 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:06,799 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: defer
+2022-09-28 00:38:06,799 INFO    HandlerThread:1020629 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-28 00:38:06,800 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: defer
+2022-09-28 00:38:06,800 INFO    SenderThread:1020629 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-09-28 00:38:06,800 INFO    SenderThread:1020629 [sender.py:transition_state():459] send defer: 11
+2022-09-28 00:38:06,801 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: defer
+2022-09-28 00:38:06,802 DEBUG   SenderThread:1020629 [sender.py:send():302] send: final
+2022-09-28 00:38:06,802 INFO    HandlerThread:1020629 [handler.py:handle_request_defer():164] handle defer: 11
+2022-09-28 00:38:06,802 DEBUG   SenderThread:1020629 [sender.py:send():302] send: footer
+2022-09-28 00:38:06,802 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: defer
+2022-09-28 00:38:06,802 INFO    SenderThread:1020629 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-09-28 00:38:06,903 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-28 00:38:06,903 DEBUG   SenderThread:1020629 [sender.py:send_request():316] send_request: poll_exit
+2022-09-28 00:38:06,904 INFO    SenderThread:1020629 [file_pusher.py:join():176] waiting for file pusher
+2022-09-28 00:38:07,315 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-28 00:38:07,319 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-28 00:38:07,328 DEBUG   HandlerThread:1020629 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-28 00:38:07,328 INFO    HandlerThread:1020629 [handler.py:finish():810] shutting down handler
+2022-09-28 00:38:07,802 INFO    WriterThread:1020629 [datastore.py:close():279] close: /home/diptesh/workspace/AggressionDetection-IIITL/Final Notebooks/IndicBERTv2alpha/wandb/run-20220928_002826-1tl3p2xy/run-1tl3p2xy.wandb
+2022-09-28 00:38:08,212 INFO    SenderThread:1020629 [sender.py:finish():1312] shutting down sender
+2022-09-28 00:38:08,212 INFO    SenderThread:1020629 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-28 00:38:08,212 INFO    SenderThread:1020629 [file_pusher.py:join():176] waiting for file pusher
+2022-09-28 01:16:13,318 INFO    MainThread:1020629 [internal.py:handle_exit():80] Internal process exited

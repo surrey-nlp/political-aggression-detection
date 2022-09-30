@@ -1,0 +1,165 @@
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 32
+{'loss': 1.0542, 'learning_rate': 9.2064e-06, 'epoch': 1.98}
+{'eval_loss': 0.9785813093185425, 'eval_accuracy': 0.5975855130784709, 'eval_precision': 0.3935720844811754, 'eval_recall': 0.5454086647010387, 'eval_f1': 0.4330414158000366, 'eval_runtime': 1.3763, 'eval_samples_per_second': 361.118, 'eval_steps_per_second': 11.626, 'epoch': 1.98}
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Saving model checkpoint to google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-248
+Configuration saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-248/config.json
+Model weights saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-248/pytorch_model.bin
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-248/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-248/special_tokens_map.json
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.9307, 'learning_rate': 8.4128e-06, 'epoch': 3.97}
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 32
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+{'eval_loss': 0.8836211562156677, 'eval_accuracy': 0.5995975855130785, 'eval_precision': 0.4071983825803034, 'eval_recall': 0.5604430631922862, 'eval_f1': 0.4398880105401845, 'eval_runtime': 1.3185, 'eval_samples_per_second': 376.95, 'eval_steps_per_second': 12.135, 'epoch': 3.97}
+Saving model checkpoint to google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-496
+Configuration saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-496/config.json
+Model weights saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-496/pytorch_model.bin
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-496/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-496/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 32
+{'loss': 0.8323, 'learning_rate': 7.619200000000001e-06, 'epoch': 5.95}
+{'eval_loss': 0.8266496062278748, 'eval_accuracy': 0.5995975855130785, 'eval_precision': 0.5508372701665668, 'eval_recall': 0.5720387844356006, 'eval_f1': 0.45269118326388186, 'eval_runtime': 1.3301, 'eval_samples_per_second': 373.656, 'eval_steps_per_second': 12.029, 'epoch': 5.95}
+Saving model checkpoint to google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-744
+Configuration saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-744/config.json
+Model weights saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-744/pytorch_model.bin
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-744/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-744/special_tokens_map.json
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 32
+{'loss': 0.7554, 'learning_rate': 6.8256e-06, 'epoch': 7.94}
+{'eval_loss': 0.8005874752998352, 'eval_accuracy': 0.6317907444668008, 'eval_precision': 0.5600868987816848, 'eval_recall': 0.5837899746718355, 'eval_f1': 0.5232202375059517, 'eval_runtime': 1.303, 'eval_samples_per_second': 381.421, 'eval_steps_per_second': 12.279, 'epoch': 7.94}
+Saving model checkpoint to google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-992
+Configuration saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-992/config.json
+Model weights saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-992/pytorch_model.bin
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-992/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-992/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.6821, 'learning_rate': 6.032e-06, 'epoch': 9.92}
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 32
+Saving model checkpoint to google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1240
+Configuration saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1240/config.json
+{'eval_loss': 0.8776867389678955, 'eval_accuracy': 0.6740442655935613, 'eval_precision': 0.5928998796328693, 'eval_recall': 0.5875468164794008, 'eval_f1': 0.5835637153412089, 'eval_runtime': 1.3476, 'eval_samples_per_second': 368.804, 'eval_steps_per_second': 11.873, 'epoch': 9.92}
+Model weights saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1240/pytorch_model.bin
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1240/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1240/special_tokens_map.json
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.6173, 'learning_rate': 5.2384000000000005e-06, 'epoch': 11.9}
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 32
+Saving model checkpoint to google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1488
+Configuration saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1488/config.json
+{'eval_loss': 0.8388711214065552, 'eval_accuracy': 0.6639839034205232, 'eval_precision': 0.5917710634257559, 'eval_recall': 0.6030786766854324, 'eval_f1': 0.5880947592808592, 'eval_runtime': 1.3651, 'eval_samples_per_second': 364.084, 'eval_steps_per_second': 11.721, 'epoch': 11.9}
+Model weights saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1488/pytorch_model.bin
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1488/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1488/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 32
+{'loss': 0.5552, 'learning_rate': 4.4448e-06, 'epoch': 13.89}
+{'eval_loss': 0.9002606868743896, 'eval_accuracy': 0.6961770623742455, 'eval_precision': 0.6240021730099383, 'eval_recall': 0.6160324078631373, 'eval_f1': 0.6191158296820581, 'eval_runtime': 1.3766, 'eval_samples_per_second': 361.023, 'eval_steps_per_second': 11.622, 'epoch': 13.89}
+Saving model checkpoint to google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1736
+Configuration saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1736/config.json
+Model weights saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1736/pytorch_model.bin
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1736/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1736/special_tokens_map.json
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 32
+{'loss': 0.4932, 'learning_rate': 3.6512000000000003e-06, 'epoch': 15.87}
+Saving model checkpoint to google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1984
+Configuration saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1984/config.json
+{'eval_loss': 0.8979368209838867, 'eval_accuracy': 0.6981891348088531, 'eval_precision': 0.6265799254422416, 'eval_recall': 0.6230787079354811, 'eval_f1': 0.6245209023810008, 'eval_runtime': 1.3202, 'eval_samples_per_second': 376.449, 'eval_steps_per_second': 12.119, 'epoch': 15.87}
+Model weights saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1984/pytorch_model.bin
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1984/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-1984/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.4446, 'learning_rate': 2.8576000000000004e-06, 'epoch': 17.86}
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 32
+Saving model checkpoint to google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2232
+Configuration saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2232/config.json
+{'eval_loss': 0.9104333519935608, 'eval_accuracy': 0.7002012072434608, 'eval_precision': 0.6310010884876425, 'eval_recall': 0.6290298891092018, 'eval_f1': 0.6297964831544621, 'eval_runtime': 1.3224, 'eval_samples_per_second': 375.836, 'eval_steps_per_second': 12.099, 'epoch': 17.86}
+Model weights saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2232/pytorch_model.bin
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2232/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2232/special_tokens_map.json
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.4084, 'learning_rate': 2.064e-06, 'epoch': 19.84}
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 32
+{'eval_loss': 0.928400993347168, 'eval_accuracy': 0.7002012072434608, 'eval_precision': 0.6277552148086752, 'eval_recall': 0.625529688327638, 'eval_f1': 0.6263649883767833, 'eval_runtime': 1.3048, 'eval_samples_per_second': 380.894, 'eval_steps_per_second': 12.262, 'epoch': 19.84}
+Saving model checkpoint to google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2480
+Configuration saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2480/config.json
+Model weights saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2480/pytorch_model.bin
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2480/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2480/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 32
+{'loss': 0.3763, 'learning_rate': 1.2704e-06, 'epoch': 21.82}
+{'eval_loss': 0.922815203666687, 'eval_accuracy': 0.7082494969818913, 'eval_precision': 0.6436004126238749, 'eval_recall': 0.6379535358648998, 'eval_f1': 0.6397933468105638, 'eval_runtime': 1.3485, 'eval_samples_per_second': 368.563, 'eval_steps_per_second': 11.865, 'epoch': 21.82}
+Saving model checkpoint to google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2728
+Configuration saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2728/config.json
+Model weights saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2728/pytorch_model.bin
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2728/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2728/special_tokens_map.json
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 32
+{'loss': 0.3575, 'learning_rate': 4.7680000000000003e-07, 'epoch': 23.81}
+{'eval_loss': 0.931877613067627, 'eval_accuracy': 0.6981891348088531, 'eval_precision': 0.6326874879506459, 'eval_recall': 0.6313890724829258, 'eval_f1': 0.6319546808412132, 'eval_runtime': 1.3315, 'eval_samples_per_second': 373.273, 'eval_steps_per_second': 12.017, 'epoch': 23.81}
+Saving model checkpoint to google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2976
+Configuration saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2976/config.json
+Model weights saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2976/pytorch_model.bin
+tokenizer config file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2976/tokenizer_config.json
+Special tokens file saved in google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2976/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'train_runtime': 2193.4086, 'train_samples_per_second': 45.318, 'train_steps_per_second': 1.425, 'train_loss': 0.6123133215332032, 'epoch': 25.0}
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from google/muril-base-cased-finetuned-code-mixed-DS/checkpoint-2728 (score: 0.6397933468105638).
