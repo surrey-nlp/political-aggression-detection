@@ -1,0 +1,285 @@
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.9538, 'learning_rate': 9.500815660685155e-06, 'epoch': 1.0}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-612
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-612/config.json
+{'eval_loss': 0.808326780796051, 'eval_accuracy': 0.6111111111111112, 'eval_precision': 0.6191579483179338, 'eval_recall': 0.6164217893499959, 'eval_f1': 0.5993534320802877, 'eval_runtime': 12.9501, 'eval_samples_per_second': 94.517, 'eval_steps_per_second': 3.012, 'epoch': 1.0}
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-612/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-612/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-612/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.7924, 'learning_rate': 9.001631321370311e-06, 'epoch': 2.0}
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-1224
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-1224/config.json
+{'eval_loss': 0.7594154477119446, 'eval_accuracy': 0.6601307189542484, 'eval_precision': 0.668781665834711, 'eval_recall': 0.6751290255708834, 'eval_f1': 0.642365623158829, 'eval_runtime': 13.1302, 'eval_samples_per_second': 93.22, 'eval_steps_per_second': 2.97, 'epoch': 2.0}
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-1224/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-1224/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-1224/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.6844, 'learning_rate': 8.502446982055465e-06, 'epoch': 3.0}
+{'eval_loss': 0.6986083984375, 'eval_accuracy': 0.704248366013072, 'eval_precision': 0.6859586701058614, 'eval_recall': 0.6968947350786482, 'eval_f1': 0.6857619190302051, 'eval_runtime': 13.0812, 'eval_samples_per_second': 93.57, 'eval_steps_per_second': 2.981, 'epoch': 3.0}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-1836
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-1836/config.json
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-1836/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-1836/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-1836/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.5715, 'learning_rate': 8.003262642740621e-06, 'epoch': 3.99}
+{'eval_loss': 0.7215505242347717, 'eval_accuracy': 0.7075163398692811, 'eval_precision': 0.6957178854850427, 'eval_recall': 0.6978268794944076, 'eval_f1': 0.6924957702759862, 'eval_runtime': 13.2418, 'eval_samples_per_second': 92.435, 'eval_steps_per_second': 2.945, 'epoch': 3.99}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-2448
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-2448/config.json
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-2448/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-2448/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-2448/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.45, 'learning_rate': 7.504078303425776e-06, 'epoch': 4.99}
+{'eval_loss': 0.7962913513183594, 'eval_accuracy': 0.7287581699346405, 'eval_precision': 0.7126024541286274, 'eval_recall': 0.7074043066235216, 'eval_f1': 0.7073296929084352, 'eval_runtime': 13.1011, 'eval_samples_per_second': 93.427, 'eval_steps_per_second': 2.977, 'epoch': 4.99}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-3060
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-3060/config.json
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-3060/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-3060/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-3060/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.352, 'learning_rate': 7.00489396411093e-06, 'epoch': 5.99}
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'eval_loss': 1.0823719501495361, 'eval_accuracy': 0.7140522875816994, 'eval_precision': 0.6998532069752122, 'eval_recall': 0.6773862170866266, 'eval_f1': 0.6817816496742521, 'eval_runtime': 12.8607, 'eval_samples_per_second': 95.174, 'eval_steps_per_second': 3.032, 'epoch': 5.99}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-3672
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-3672/config.json
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-3672/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-3672/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-3672/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.2546, 'learning_rate': 6.505709624796085e-06, 'epoch': 6.99}
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'eval_loss': 1.0883631706237793, 'eval_accuracy': 0.7230392156862745, 'eval_precision': 0.7005998784214506, 'eval_recall': 0.7083084910108978, 'eval_f1': 0.7028226999612105, 'eval_runtime': 13.0481, 'eval_samples_per_second': 93.807, 'eval_steps_per_second': 2.989, 'epoch': 6.99}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-4284
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-4284/config.json
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-4284/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-4284/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-4284/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.1975, 'learning_rate': 6.00652528548124e-06, 'epoch': 7.99}
+{'eval_loss': 1.533768653869629, 'eval_accuracy': 0.7336601307189542, 'eval_precision': 0.7090290817658652, 'eval_recall': 0.7062523611794247, 'eval_f1': 0.7074113117096598, 'eval_runtime': 13.1332, 'eval_samples_per_second': 93.199, 'eval_steps_per_second': 2.97, 'epoch': 7.99}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-4896
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-4896/config.json
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-4896/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-4896/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-4896/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.1656, 'learning_rate': 5.507340946166395e-06, 'epoch': 8.99}
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'eval_loss': 1.8181804418563843, 'eval_accuracy': 0.7099673202614379, 'eval_precision': 0.6881882359393603, 'eval_recall': 0.6989465056398583, 'eval_f1': 0.6895687591374612, 'eval_runtime': 13.2252, 'eval_samples_per_second': 92.551, 'eval_steps_per_second': 2.949, 'epoch': 8.99}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-5508
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-5508/config.json
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-5508/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-5508/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-5508/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.1358, 'learning_rate': 5.0081566068515494e-06, 'epoch': 9.98}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-6120
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-6120/config.json
+{'eval_loss': 2.162261724472046, 'eval_accuracy': 0.7173202614379085, 'eval_precision': 0.6916549203256045, 'eval_recall': 0.6958757363414462, 'eval_f1': 0.6934007373474783, 'eval_runtime': 13.1125, 'eval_samples_per_second': 93.346, 'eval_steps_per_second': 2.974, 'epoch': 9.98}
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-6120/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-6120/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-6120/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.1235, 'learning_rate': 4.508972267536705e-06, 'epoch': 10.98}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-6732
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-6732/config.json
+{'eval_loss': 2.324850559234619, 'eval_accuracy': 0.7140522875816994, 'eval_precision': 0.6881211884511299, 'eval_recall': 0.6914255173537804, 'eval_f1': 0.688817103378109, 'eval_runtime': 12.7766, 'eval_samples_per_second': 95.8, 'eval_steps_per_second': 3.052, 'epoch': 10.98}
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-6732/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-6732/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-6732/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.1003, 'learning_rate': 4.00978792822186e-06, 'epoch': 11.98}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-7344
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-7344/config.json
+{'eval_loss': 2.347388982772827, 'eval_accuracy': 0.7124183006535948, 'eval_precision': 0.6866172433778526, 'eval_recall': 0.691999622211292, 'eval_f1': 0.6887122685475034, 'eval_runtime': 13.2421, 'eval_samples_per_second': 92.433, 'eval_steps_per_second': 2.945, 'epoch': 11.98}
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-7344/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-7344/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-7344/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.0826, 'learning_rate': 3.510603588907015e-06, 'epoch': 12.98}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-7956
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-7956/config.json
+{'eval_loss': 2.357407569885254, 'eval_accuracy': 0.7083333333333334, 'eval_precision': 0.6852871557979917, 'eval_recall': 0.6958921580987912, 'eval_f1': 0.6873545536764536, 'eval_runtime': 12.808, 'eval_samples_per_second': 95.565, 'eval_steps_per_second': 3.045, 'epoch': 12.98}
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-7956/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-7956/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-7956/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.0727, 'learning_rate': 3.01141924959217e-06, 'epoch': 13.98}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-8568
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-8568/config.json
+{'eval_loss': 2.4988856315612793, 'eval_accuracy': 0.7116013071895425, 'eval_precision': 0.6857863307160855, 'eval_recall': 0.69344646952965, 'eval_f1': 0.6883182913595012, 'eval_runtime': 13.1412, 'eval_samples_per_second': 93.142, 'eval_steps_per_second': 2.968, 'epoch': 13.98}
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-8568/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-8568/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-8568/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.0553, 'learning_rate': 2.5122349102773246e-06, 'epoch': 14.98}
+{'eval_loss': 2.8089592456817627, 'eval_accuracy': 0.7026143790849673, 'eval_precision': 0.6746684618312507, 'eval_recall': 0.6709764509350998, 'eval_f1': 0.6725259746546937, 'eval_runtime': 13.2038, 'eval_samples_per_second': 92.7, 'eval_steps_per_second': 2.954, 'epoch': 14.98}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-9180
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-9180/config.json
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-9180/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-9180/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-9180/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.0433, 'learning_rate': 2.0130505709624796e-06, 'epoch': 15.97}
+{'eval_loss': 2.6646716594696045, 'eval_accuracy': 0.7254901960784313, 'eval_precision': 0.7009543897812055, 'eval_recall': 0.7028107117887116, 'eval_f1': 0.701828960247545, 'eval_runtime': 12.9609, 'eval_samples_per_second': 94.438, 'eval_steps_per_second': 3.009, 'epoch': 15.97}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-9792
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-9792/config.json
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-9792/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-9792/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-9792/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.0449, 'learning_rate': 1.5138662316476346e-06, 'epoch': 16.97}
+{'eval_loss': 2.656810998916626, 'eval_accuracy': 0.7246732026143791, 'eval_precision': 0.7053000411634187, 'eval_recall': 0.6996761260844871, 'eval_f1': 0.7009837061632317, 'eval_runtime': 13.1855, 'eval_samples_per_second': 92.83, 'eval_steps_per_second': 2.958, 'epoch': 16.97}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-10404
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-10404/config.json
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-10404/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-10404/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-10404/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.0373, 'learning_rate': 1.0146818923327897e-06, 'epoch': 17.97}
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'eval_loss': 2.763216018676758, 'eval_accuracy': 0.7148692810457516, 'eval_precision': 0.688822503587962, 'eval_recall': 0.6938494923425611, 'eval_f1': 0.6908642098254797, 'eval_runtime': 12.8881, 'eval_samples_per_second': 94.972, 'eval_steps_per_second': 3.026, 'epoch': 17.97}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-11016
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-11016/config.json
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-11016/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-11016/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-11016/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.0278, 'learning_rate': 5.154975530179446e-07, 'epoch': 18.97}
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'eval_loss': 2.8244571685791016, 'eval_accuracy': 0.7124183006535948, 'eval_precision': 0.6865548917416571, 'eval_recall': 0.6930299826414962, 'eval_f1': 0.6888912763629566, 'eval_runtime': 13.2447, 'eval_samples_per_second': 92.414, 'eval_steps_per_second': 2.945, 'epoch': 18.97}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-11628
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-11628/config.json
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-11628/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-11628/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-11628/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+***** Running Evaluation *****
+  Num examples = 1224
+  Batch size = 32
+{'loss': 0.0288, 'learning_rate': 1.6313213703099514e-08, 'epoch': 19.97}
+Saving model checkpoint to roberta-large-finetuned-TRAC-DS/checkpoint-12240
+Configuration saved in roberta-large-finetuned-TRAC-DS/checkpoint-12240/config.json
+{'eval_loss': 2.8197760581970215, 'eval_accuracy': 0.7189542483660131, 'eval_precision': 0.6955055253174995, 'eval_recall': 0.6978914739471911, 'eval_f1': 0.696344820529165, 'eval_runtime': 12.8585, 'eval_samples_per_second': 95.19, 'eval_steps_per_second': 3.033, 'epoch': 19.97}
+Model weights saved in roberta-large-finetuned-TRAC-DS/checkpoint-12240/pytorch_model.bin
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/checkpoint-12240/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/checkpoint-12240/special_tokens_map.json
+tokenizer config file saved in roberta-large-finetuned-TRAC-DS/tokenizer_config.json
+Special tokens file saved in roberta-large-finetuned-TRAC-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from roberta-large-finetuned-TRAC-DS/checkpoint-4896 (score: 0.7074113117096598).
+{'train_runtime': 11895.0358, 'train_samples_per_second': 16.469, 'train_steps_per_second': 1.031, 'train_loss': 0.2582921143988874, 'epoch': 20.0}
