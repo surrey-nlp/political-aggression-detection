@@ -10445,3 +10445,4 @@
 2022-10-02 00:48:11,324 INFO    SenderThread:2826564 [sender.py:finish():1312] shutting down sender
 2022-10-02 00:48:11,351 INFO    SenderThread:2826564 [file_pusher.py:finish():171] shutting down file pusher
 2022-10-02 00:48:11,352 INFO    SenderThread:2826564 [file_pusher.py:join():176] waiting for file pusher
+2022-10-02 10:43:43,659 INFO    MainThread:2826564 [internal.py:handle_exit():80] Internal process exited
