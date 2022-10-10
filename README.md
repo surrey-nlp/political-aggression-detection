@@ -1,2 +1,4 @@
 - Final datasets comprising of TRAC, ours, combined, code-mixed and non code-mixed are available in /data/Finally_prepared. <br>
 - Final train, dev, and test splits are available in /data/Finally_prepared/splitwise/
+- Final PNG files for topic modeling are in /BERTopic/BERTopic-final-results/tagwise/
+- All models on [HuggingFace.](https://huggingface.co/IIIT-L)
