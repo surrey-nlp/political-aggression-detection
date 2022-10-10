@@ -1,1 +1,2 @@
 - Final datasets comprising of TRAC, ours, combined, code-mixed and non code-mixed are available in /data/Finally_prepared. <br>
+- Final train, dev, and test splits are available in /data/Finally_prepared/splitwise/
