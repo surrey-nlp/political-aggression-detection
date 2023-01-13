@@ -1,0 +1,86 @@
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 1.0941, 'learning_rate': 8.004016064257028e-07, 'epoch': 2.0}
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 16
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Saving model checkpoint to ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-497
+Configuration saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-497/config.json
+Model weights saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-497/pytorch_model.bin
+tokenizer config file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-497/tokenizer_config.json
+Special tokens file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-497/special_tokens_map.json
+{'eval_loss': 1.0845173597335815, 'eval_accuracy': 0.3440643863179074, 'eval_precision': 0.36151697652090425, 'eval_recall': 0.4179748718357372, 'eval_f1': 0.27063654725836156, 'eval_runtime': 1.6267, 'eval_samples_per_second': 305.531, 'eval_steps_per_second': 19.672, 'epoch': 2.0}
+tokenizer config file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/special_tokens_map.json
+Adding files tracked by Git LFS: ['tokenizer.json']. This may take a bit of time if the files are large.
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 1.0379, 'learning_rate': 6.008032128514056e-07, 'epoch': 3.99}
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 16
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+{'eval_loss': 0.9775276184082031, 'eval_accuracy': 0.5412474849094567, 'eval_precision': 0.3778967878174357, 'eval_recall': 0.512750019921906, 'eval_f1': 0.4002741578445266, 'eval_runtime': 1.6462, 'eval_samples_per_second': 301.916, 'eval_steps_per_second': 19.439, 'epoch': 3.99}
+Saving model checkpoint to ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-994
+Configuration saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-994/config.json
+Model weights saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-994/pytorch_model.bin
+tokenizer config file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-994/tokenizer_config.json
+Special tokens file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-994/special_tokens_map.json
+tokenizer config file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.9509, 'learning_rate': 4.012048192771084e-07, 'epoch': 5.99}
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 16
+{'eval_loss': 0.9270676374435425, 'eval_accuracy': 0.5513078470824949, 'eval_precision': 0.37523658111893404, 'eval_recall': 0.5143968974951524, 'eval_f1': 0.40434933011714774, 'eval_runtime': 1.6503, 'eval_samples_per_second': 301.149, 'eval_steps_per_second': 19.39, 'epoch': 5.99}
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Saving model checkpoint to ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-1491
+Configuration saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-1491/config.json
+Model weights saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-1491/pytorch_model.bin
+tokenizer config file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-1491/tokenizer_config.json
+Special tokens file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-1491/special_tokens_map.json
+tokenizer config file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.9152, 'learning_rate': 2.0160642570281123e-07, 'epoch': 7.98}
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 16
+{'eval_loss': 0.9047448635101318, 'eval_accuracy': 0.5613682092555332, 'eval_precision': 0.38518410191413993, 'eval_recall': 0.5275320742688661, 'eval_f1': 0.4131233331656016, 'eval_runtime': 1.6552, 'eval_samples_per_second': 300.265, 'eval_steps_per_second': 19.333, 'epoch': 7.98}
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Saving model checkpoint to ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-1988
+Configuration saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-1988/config.json
+Model weights saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-1988/pytorch_model.bin
+tokenizer config file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-1988/tokenizer_config.json
+Special tokens file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-1988/special_tokens_map.json
+tokenizer config file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'loss': 0.8953, 'learning_rate': 2.008032128514056e-09, 'epoch': 9.98}
+***** Running Evaluation *****
+  Num examples = 497
+  Batch size = 16
+{'eval_loss': 0.8981471061706543, 'eval_accuracy': 0.5593561368209256, 'eval_precision': 0.3837596004896385, 'eval_recall': 0.5262836348181794, 'eval_f1': 0.41179266117624697, 'eval_runtime': 1.6713, 'eval_samples_per_second': 297.382, 'eval_steps_per_second': 19.147, 'epoch': 9.98}
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Saving model checkpoint to ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-2485
+Configuration saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-2485/config.json
+Model weights saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-2485/pytorch_model.bin
+tokenizer config file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-2485/tokenizer_config.json
+Special tokens file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-2485/special_tokens_map.json
+tokenizer config file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/tokenizer_config.json
+Special tokens file saved in ai4bharat/indic-bert-finetuned-code-mixed-DS/special_tokens_map.json
+/home/diptesh/anaconda3/envs/aggDet/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+{'train_runtime': 574.8086, 'train_samples_per_second': 69.171, 'train_steps_per_second': 4.332, 'train_loss': 0.9786210918043512, 'epoch': 10.0}
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from ai4bharat/indic-bert-finetuned-code-mixed-DS/checkpoint-1988 (score: 0.4131233331656016).

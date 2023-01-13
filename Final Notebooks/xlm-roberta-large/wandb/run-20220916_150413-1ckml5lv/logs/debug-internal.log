@@ -3824,3 +3824,4 @@ FileNotFoundError: [Errno 2] No such file or directory: 'conda'
 2022-09-16 15:44:47,086 INFO    SenderThread:63261 [sender.py:finish():1312] shutting down sender
 2022-09-16 15:44:47,087 INFO    SenderThread:63261 [file_pusher.py:finish():171] shutting down file pusher
 2022-09-16 15:44:47,087 INFO    SenderThread:63261 [file_pusher.py:join():176] waiting for file pusher
+2022-09-17 14:28:39,262 INFO    MainThread:63261 [internal.py:handle_exit():80] Internal process exited
